@@ -95,7 +95,7 @@ export default function Home() {
             <div>
               <p className="section-label mb-2">Kolekcija</p>
               <h2 className="font-display text-3xl md:text-4xl font-medium text-foreground">
-                25 fotografija
+                90 fotografija
               </h2>
             </div>
 
@@ -177,7 +177,7 @@ export default function Home() {
         <div className="container flex flex-col md:flex-row items-center justify-between gap-4">
           <span className="font-display text-sm text-muted-foreground">Kroz objektiv</span>
           <span className="font-ui text-xs text-muted-foreground" style={{ letterSpacing: "0.1em" }}>
-            © Goran Vučićević · 25 fotografija · Pejzaž · Divlja priroda · Dokumentarno
+            © Goran Vučićević · 90 fotografija · Pejzaž · Divlja priroda · Dokumentarno
           </span>
         </div>
       </footer>
