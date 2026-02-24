@@ -1,17 +1,17 @@
 // "Fog & Field" — Nordic Atmospheric Minimalism
-// Improvement Page — Constructive critique, section-by-section
+// Stranica oblasti rasta — Detaljna kritika po sekcijama (srpski)
 
 import { useState } from "react";
 import { Link } from "wouter";
 import Navigation from "@/components/Navigation";
 import { photos } from "@/lib/photos";
-import { ArrowLeft, ArrowRight, ChevronDown, ChevronUp } from "lucide-react";
+import { ArrowRight, ArrowLeft, ChevronDown, ChevronUp } from "lucide-react";
 
 interface CritiqueSection {
   id: string;
   category: string;
   title: string;
-  rating: "Strong" | "Good" | "Developing" | "Opportunity";
+  rating: "Snažno" | "Dobro" | "U razvoju" | "Prilika";
   summary: string;
   observations: string[];
   recommendations: string[];
@@ -23,144 +23,142 @@ const critiqueSections: CritiqueSection[] = [
   {
     id: "composition",
     category: "01",
-    title: "Composition & Framing",
-    rating: "Good",
-    summary: "Your compositional instincts are well-developed, with consistent use of leading lines, layered depth, and the rule of thirds. The primary area for growth is foreground interest — many landscape images lack a compelling near element to anchor the viewer's eye.",
+    title: "Kompozicija i kadriranje",
+    rating: "Dobro",
+    summary: "Vaši kompozicioni instinkti su dobro razvijeni, sa doslednom upotrebom vodećih linija, slojevite dubine i pravila trećine. Primarna oblast za rast je interes prvog plana — mnoge pejzažne slike nemaju ubedljiv bliski element koji bi usidruo pogled posmatrača.",
     observations: [
-      "Leading lines are used effectively in multiple images: the winding road in 'Morning Haze', the vineyard rows in 'Vineyard in Fog', and the fisherman's footprints in 'The Fisherman's Walk' all guide the eye through the frame with purpose.",
-      "Layered depth (foreground/midground/background) is a consistent strength, particularly visible in the telephoto mountain and valley shots.",
-      "Several landscape images — particularly 'Storm Over the Fields' and 'Frost at Dusk' — lack a strong foreground element, leaving the lower third of the frame visually empty and less engaging.",
-      "Horizon placement is generally good, but in a few images ('Cracked Earth', 'Golden River') the horizon sits very close to the center, reducing the dynamic tension between sky and land.",
-      "The minimalist compositions ('Crow in Winter', 'Solitude on Still Water') demonstrate excellent restraint and an understanding that negative space is compositional, not empty."
+      "Vodeće linije se efikasno koriste u više slika: vijugavi put u 'Jutarnjoj izmaglici', redovi vinograda u 'Vinogradu u magli' i tragovi stopala ribara u 'Ribarevom putu' vode oko kroz kadar sa svrhom.",
+      "Slojevita dubina (prednji plan/srednji plan/pozadina) je dosledna snaga, posebno vidljiva u snimcima planina i dolina sa teleobjektivom.",
+      "Nekoliko pejzažnih slika — posebno 'Oluja nad njivama' i 'Mraz u sumrak' — nemaju snažan element prvog plana, ostavljajući donju trećinu kadra vizuelno praznom i manje angažujućom.",
+      "Postavljanje horizonta je generalno dobro, ali u nekoliko slika ('Ispucala zemlja', 'Zlatna reka') horizont sedi veoma blizu centra, smanjujući dinamičnu napetost između neba i zemlje.",
+      "Minimalistične kompozicije ('Vrana u zimi', 'Samoća na mirnoj vodi') demonstriraju odličnu uzdržanost i razumevanje da je negativni prostor kompozicioni, a ne prazan."
     ],
     recommendations: [
-      "When shooting landscapes, actively seek foreground interest: rocks, flowers, frost patterns, or water reflections that can anchor the lower third of the frame and create a sense of entry into the scene.",
-      "Experiment with more extreme horizon placement — placing the horizon at the very bottom 20% when the sky is exceptional, or at the very top 20% when the foreground is the story.",
-      "Before pressing the shutter, consciously ask: 'What is in the foreground, and does it serve the composition?' This single habit can transform good landscape shots into great ones.",
-      "Consider the 'frame within a frame' technique — using natural elements like tree branches, archways, or rock formations to create a secondary frame around your subject."
+      "Kada snimate pejzaže, aktivno tražite interes prvog plana: kamenje, cveće, uzorke mraza ili refleksije vode koji mogu usidriti donju trećinu kadra i stvoriti osećaj ulaska u scenu.",
+      "Eksperimentišite sa ekstremnim postavljanjem horizonta — postavljajte horizont na samih 20% odozdo kada je nebo izuzetno, ili na samih 20% odozgo kada je priča u prednjem planu.",
+      "Pre pritiskanja okidača, svesno se pitajte: 'Šta je u prednjem planu i da li služi kompoziciji?' Ova jedna navika može transformisati dobre pejzažne snimke u odlične.",
+      "Razmotrite tehniku 'okvira unutar okvira' — koristite prirodne elemente poput grana drveća, lukova ili stenovitih formacija da stvorite sekundarni okvir oko vašeg subjekta."
     ],
     examplePhotoId: "IMG_4379",
-    exampleCaption: "Morning Haze — strong leading line with the winding road, but the foreground field lacks a specific anchor point to draw the viewer in."
+    exampleCaption: "Jutarnja izmaglica — snažna vodeća linija sa vijugavim putem, ali prednjem planu nedostaje specifična tačka usidrenja koja bi privukla posmatrača."
   },
   {
-    id: "lighting",
+    id: "light",
     category: "02",
-    title: "Light & Exposure",
-    rating: "Good",
-    summary: "Your understanding of natural light is sophisticated — you clearly know how to work golden hour, blue hour, and atmospheric conditions. The main opportunity is in challenging midday and overcast light, where some images feel flat, and in managing the temptation to over-process dynamic range.",
+    title: "Svetlost i ekspozicija",
+    rating: "Dobro",
+    summary: "Vaše razumevanje prirodnog svetla je sofisticirano — jasno znate kako da radite sa zlatnim i plavim časom i atmosferskim uslovima. Glavna prilika je u izazovnom podnevnom i oblačnom svetlu, gde neke slike izgledaju ravno, i u upravljanju iskušenjem da se preterano obradi dinamički opseg.",
     observations: [
-      "Golden hour and blue hour work is consistently strong. 'Golden River', 'Lamplight in Snow', and 'Steel Bridge at Dusk' all demonstrate excellent timing and an understanding of how directional light creates mood.",
-      "Backlit silhouette photography ('Golden River', 'Steel Bridge at Dusk') is handled with confidence — exposure is correctly placed on the background to render subjects as clean silhouettes.",
-      "The midday 'Cracked Earth' image, while interesting documentarily, suffers from harsh overhead light that creates unflattering shadows and washes out the texture of the cracked mud.",
-      "Several images show signs of HDR processing or aggressive tone-mapping: visible halos around high-contrast edges, over-saturated skies, and an artificial 'painted' quality that works against the naturalistic tone of your best work.",
-      "Dynamic range management in winter scenes is excellent — the snow detail in 'The Fisherman's Walk' and 'Lamplight in Snow' is preserved without blowing out highlights."
+      "Slike zlatnog časa su konzistentno jake: 'Zlatna reka', 'Mraz u sumrak' i 'Čelični most u sumrak' sve demonstriraju odlično razumevanje kako da se iskoristi kratki prozor zlatnog svetla.",
+      "Atmosferska svetlost — difuzna magla, snežni odsjaj, dramatično olujno svetlo — se obrađuje sa izuzetnom veštinom. Ovo je oblast gde vaš rad nadmašuje većinu fotografa amaterskog i polu-profesionalnog nivoa.",
+      "Nekoliko slika snimljenih u oštrom podnevnom svetlu ('Ispucala zemlja', 'Mala voda') imaju ravne, visoko-kontrastne tonove koji nedostaju atmosferske dubine vaših boljih radova.",
+      "Neke zimske slike pokazuju znakove preterane HDR obrade — oreoli oko grana drveća, prenaglašene teksture oblaka — koji narušavaju naturalističke kvalitete koji čine vaš rad tako ubedljivim.",
+      "Upravljanje ekspozicijom za siluete je generalno odlično, sa 'Zlatnom rekom' i 'Ribarevim putem' koji demonstriraju samopouzdano rukovanje scenama visokog kontrasta."
     ],
     recommendations: [
-      "Reduce HDR processing or tone-mapping intensity by 30-40%. Your strongest images have a natural, film-like quality that heavy processing undermines. Trust the light you captured rather than trying to manufacture drama in post.",
-      "For midday documentary shooting, seek open shade or use the harsh light intentionally — high-contrast black-and-white conversion can transform a flat midday shot into a graphic, powerful image.",
-      "Experiment with intentional underexposure (1/3 to 2/3 stop) in golden hour shooting. Slightly underexposed golden hour images retain richer color saturation and a more cinematic quality than correctly exposed ones.",
-      "Consider shooting RAW exclusively if you are not already — the additional dynamic range headroom will allow more nuanced shadow recovery without introducing the artifacts that come from heavy JPEG processing."
+      "Za podnevno i oblačno svetlo, tražite prirodne difuzore: senku šume, maglu ili oblake koji omekšavaju direktno sunce. Alternativno, koristite ove uslove namerno za visoko-kontrastni, grafički stil.",
+      "Smanjite intenzitet HDR obrade za 30-40% u zimskim snimcima. Vaš najjači zimski rad — 'Samoća na mirnoj vodi', 'Vrana u zimi' — uspeva jer se oseća stvarno. Veštačka tekstura narušava ovaj efekat.",
+      "Eksperimentišite sa snimanjem u RAW formatu i obradom ekspozicije u post-produkciji umesto oslanjanja na kameru da automatski obradi dinamički opseg.",
+      "Za dramatično olujno svetlo, pokušajte da snimate u momentu kada sunce probija oblake — ovaj 'prozor' svetla traje samo nekoliko minuta ali daje jedinstven, dramatičan efekat."
     ],
     examplePhotoId: "IMG_9496",
-    exampleCaption: "Frost at Dusk — exceptional atmospheric light, but the sky shows signs of tone-mapping that introduce a slight artificial quality. The image would be even stronger with more restrained processing."
+    exampleCaption: "Mraz u sumrak — odlično upravljanje dramatičnim olujnim svetlom, ali HDR obrada je blago prenaglašena u teksturi oblaka."
   },
   {
     id: "wildlife",
     category: "03",
-    title: "Wildlife & Action Photography",
-    rating: "Developing",
-    summary: "Your wildlife work shows genuine patience and an understanding of animal behavior — you clearly spend time in the field and know where and when to find your subjects. The primary technical limitation is shutter speed: several wildlife images show motion blur that softens critical details.",
+    title: "Fotografija divlje prirode i akcije",
+    rating: "U razvoju",
+    summary: "Vaš rad sa divljom prirodom pokazuje iskreno strpljenje i razumevanje ponašanja životinja — jasno provodite vreme na terenu i znate gde i kada da pronađete subjekte. Primarna tehnička ograničenja su brzina zatvarača i fokus: nekoliko snimaka divlje prirode pokazuje zamućenje pokreta koje omekšava kritične detalje.",
     observations: [
-      "'Heron in Flight' is your strongest wildlife image — the timing is excellent, the composition is beautiful, and the atmospheric morning light creates a painterly quality. However, the heron's wing tips show slight motion blur, suggesting the shutter speed was marginally too slow.",
-      "The 'Heron on Ruins' image demonstrates good patience and positioning — waiting for the bird to adopt an interesting pose against a clean background — but the image is slightly soft overall, possibly due to camera shake at a long focal length.",
-      "'Crow in Winter' is a masterpiece of minimalist wildlife photography. The composition, the negative space, the tonal restraint — this image is portfolio-defining. The bird is sharp and the background is beautifully rendered.",
-      "The 'Swans at the Tower' image is charming but compositionally static — the swans are centered and the scene lacks the dynamic tension of your best work.",
-      "Wildlife images would benefit from more consistent use of burst mode to capture peak action moments."
+      "Snimak čaplje u letu ('Čaplja u letu') demonstrira odlično predviđanje i tajming — uhvatiti pticu u letu sa teleobjektivom zahteva i tehničku veštinu i razumevanje ponašanja ptice.",
+      "Snimak vrane ('Vrana u zimi') je jedan od najjačih u portfoliju — statični subjekt, ali kompozicija, atmosfera i emocionalni sadržaj su izuzetni.",
+      "Nekoliko snimaka divlje prirode pokazuje blagu mekoću u kritičnim oblastima (oči, perje) što sugeriše da je brzina zatvarača bila preniska za ambijentalne svetlosne uslove.",
+      "Snimak labudova ('Labudovi kod tornja') je tehnički solidan ali kompoziciono konvencionalan — subjekti su centrirani bez dinamičnog napetosti.",
+      "Snimak čaplje na ruševinama ('Čaplja na ruševinama') pokazuje dobro razumevanje čekanja na pravi momenat, ali pozadinsko svetlo je izazovno i rezultat je kompromis."
     ],
     recommendations: [
-      "For birds in flight, aim for a minimum shutter speed of 1/1600s, and ideally 1/2000s or faster. In low light, accept higher ISO (3200-6400 on modern cameras) to achieve this — modern noise is far preferable to motion blur.",
-      "Use continuous autofocus (AI Servo on Canon, AF-C on Nikon/Sony) with subject tracking for all moving wildlife. Single-shot AF is appropriate only for stationary subjects.",
-      "When photographing stationary birds, use a shutter speed of at least 1/(2 × focal length) to eliminate camera shake. At 400mm, that means 1/800s minimum.",
-      "Study animal behavior to anticipate action moments — the moment before a heron takes flight, the instant a bird turns its head. Anticipation, not reaction, produces the best wildlife images.",
-      "For the 'Swans at the Tower' type of shot, try waiting for the swans to interact with each other or with the environment — a swan stretching its wings, or swimming toward the tower — to add dynamic interest."
+      "Za fotografiju ptica u letu, ciljajte na minimum 1/2000s brzine zatvarača — prihvatite viši ISO (1600-3200 na modernim senzorima). Moderni šum je uvek bolji od zamućenja pokreta.",
+      "Koristite kontinuirani autofokus (AI Servo na Canon, AF-C na Nikon/Sony) za sve pokretne subjekte. Ovo je posebno kritično za ptice u letu.",
+      "Za labudove i vodene ptice, pokušajte sa nižim uglom snimanja — gotovo na nivou vode — za dramatičniju perspektivu i čišću pozadinu.",
+      "Razmotrite upotrebu burst moda za akcione snimke: snimite seriju od 5-10 slika i odaberite onaj sa najboljim položajem krila i najoštrijom fokusnom tačkom."
     ],
     examplePhotoId: "IMG_3176",
-    exampleCaption: "Heron in Flight — beautiful composition and atmospheric light, but the wing tips show slight motion blur. A shutter speed of 1/2000s would have frozen the motion completely."
+    exampleCaption: "Čaplja u letu — odlično predviđanje i kompozicija, ali blago zamućenje pokreta na vrhovima krila sugeriše da je brzina zatvarača mogla biti viša."
   },
   {
     id: "postprocessing",
     category: "04",
-    title: "Post-Processing & Editing",
-    rating: "Developing",
-    summary: "Your editing has a clear aesthetic direction and the dual warm/cool palette is well-executed. The main area for improvement is restraint — knowing when to stop. Several images are over-processed in ways that undermine the naturalistic quality that makes your best work so compelling.",
+    title: "Post-obrada i uređivanje",
+    rating: "U razvoju",
+    summary: "Vaše uređivanje ima jasan estetski pravac i dvojna topla/hladna paleta je dobro izvedena. Glavna oblast za poboljšanje je uzdržanost — znati kada stati. Nekoliko slika je preobrađeno na načine koji narušavaju naturalističke kvalitete koji čine vaš najjači rad tako ubedljivim.",
     observations: [
-      "The best-processed images in the portfolio — 'Crow in Winter', 'Solitude on Still Water', 'The Fisherman's Walk' — are characterized by restraint. They feel like photographs of real moments, not digital paintings.",
-      "Several landscape images ('Storm Over the Fields', 'Frost at Dusk', 'The Vast Beyond') show aggressive clarity/texture sliders and over-saturated skies that give them a characteristic 'HDR look' — recognizable and somewhat dated.",
-      "Color grading is generally consistent within each seasonal register, which is a strength. The warm amber palette and the cool blue-grey palette are both well-defined and applied with consistency.",
-      "Some images show over-sharpening artifacts, particularly in sky areas where noise has been amplified by sharpening.",
-      "The converted TIF file ('Autumn Portrait') shows excellent tonal control — the skin tones and shadow detail are well-managed, suggesting strong technical skill when processing is applied with care."
+      "Dvojna topla/hladna paleta je dosljedno primenjena i funkcioniše dobro kao kohezivni estetski potpis kroz portfolio.",
+      "Neke zimske slike pokazuju znakove preterane obrade: oreoli oko grana drveća, prenaglašene teksture oblaka, i prezasićene senke koje izgledaju nerealno.",
+      "Vaš najjači rad — 'Samoća na mirnoj vodi', 'Vrana u zimi', 'Jutarnja izmaglica' — je tehnički najjednostavniji. Ovo nije slučajnost.",
+      "Nekoliko slika ima prenaglašenu jasnoću (clarity) koja dodaje teksturu ali smanjuje atmosfersku mekoću koja je karakteristična za vaš stil.",
+      "Konverzija u crno-belo je primenjena na nekoliko slika sa mešovitim rezultatima — 'Vrana u zimi' funkcioniše odlično, ali neke druge slike bi bile jače u boji."
     ],
     recommendations: [
-      "Adopt a 'less is more' philosophy for landscape editing. After completing your edit, reduce all adjustments by 20% — clarity, texture, saturation, contrast. This single step will move your work from 'impressive' to 'timeless'.",
-      "Avoid the clarity/texture slider above +30 in most cases. These sliders enhance micro-contrast in ways that quickly become obvious and artificial-looking.",
-      "For sky editing, use graduated filters or masking rather than global adjustments. This allows you to enhance the sky without affecting the foreground, avoiding the characteristic HDR 'painted' look.",
-      "Consider developing a consistent Lightroom/Capture One preset that embodies your aesthetic — this will improve consistency across the portfolio and speed up your editing workflow.",
-      "Study the work of photographers whose editing you admire — Sebastião Salgado's black-and-white, or the muted naturalism of Finn Beales — and analyze what they do and don't do in post-processing."
+      "Primenite pravilo '-20%': kada mislite da ste završili sa obradom slike, smanjite sve prilagođavanja jasnoće, teksture i zasićenosti za 20%. Ovo je gotovo uvek poboljšanje.",
+      "Za zimske slike, koristite lokalne maske umesto globalnih prilagođavanja — primenite teksturu selektivno na nebo, a ostavite sneg i maglicu meke i čiste.",
+      "Razvijte dosledan 'preset' ili stil obrade koji možete primeniti kao polaznu tačku za sve slike. Ovo će poboljšati koheziju portfolija i ubrzati vaš tok rada.",
+      "Pre finalizacije obrade, pogledajte sliku u crno-beloj verziji — ovo otkriva tonske probleme koji su skriveni bojom, posebno u oblastima neba i senki."
     ],
-    examplePhotoId: "IMG_1797",
-    exampleCaption: "Storm Over the Fields — strong composition and dramatic sky, but the HDR processing creates halos around the tree and an artificial quality that works against the image's power."
+    examplePhotoId: "IMG_5504",
+    exampleCaption: "Svetiljke u snegu — odlična atmosfera i kompozicija, ali lokalna obrada neba mogla bi biti suptilnija da sačuva naturalističku mekoću scene."
   },
   {
     id: "narrative",
     category: "05",
-    title: "Narrative & Storytelling",
-    rating: "Good",
-    summary: "Your documentary work shows a genuine storytelling instinct — people are observed, not directed, and their relationship to their environment is always the real subject. The opportunity is to push further: to create more sustained narrative sequences rather than isolated single images.",
+    title: "Narativ i pripovedanje",
+    rating: "Dobro",
+    summary: "Vaš dokumentarni rad pokazuje iskreni instinkt za pripovedanje — ljudi se posmatraju, ne režiraju, i njihov odnos prema okruženju je uvek pravi subjekt. Prilika je da idete dalje: da stvarate više održivih narativnih sekvenci umesto izolovanih pojedinačnih slika.",
     observations: [
-      "'Into the Mist' is your strongest narrative image — the two figures walking into the fog create an immediate story with multiple interpretations: a journey, a relationship, a disappearance into the unknown.",
-      "The environmental documentary images ('Cracked Earth', 'Low Water') demonstrate an awareness of ecological themes — drought, low water levels — that gives the work a dimension beyond pure aesthetics.",
-      "Several images tell their story primarily through atmosphere rather than action, which is a valid and sophisticated approach, but can occasionally feel static.",
-      "The 'River Swing' image captures a genuine moment of joy and summer freedom — this kind of candid human moment is relatively rare in the portfolio, and its presence is welcome.",
-      "The portfolio as a whole lacks a sustained narrative thread — it reads as a collection of strong individual images rather than a coherent series with a beginning, middle, and end."
+      "Dokumentarne slike su konzistentno jake u smislu autentičnosti — 'U magli', 'Ljuljanje nad rekom' i 'Ribarev put' sve imaju osećaj uhvaćenog trenutka, a ne postavljene scene.",
+      "Odnos između ljudi i njihovog okruženja je uvek pravi subjekt — ovo je sofisticirani pristup dokumentarnoj fotografiji koji mnogi fotografa ne razvijaju.",
+      "Portfolio bi imao koristi od više narativnih sekvenci — serije od 3-5 slika koje zajedno pričaju priču. Trenutno su sve slike izolovane, bez narativnog konteksta.",
+      "Neke dokumentarne slike ('Ispucala zemlja', 'Mala voda') imaju snažan ekološki komentar koji je implicitan ali nikada eksplicitan — ovo je snaga, ali i propuštena prilika za dublje angažovanje.",
+      "Odsustvo portreta lica je primetno — svi subjekti su okrenuti od kamere ili previše udaljeni da bi se videli detalji lica. Ovo je svesna estetska odluka, ali ograničava emocionalni opseg rada."
     ],
     recommendations: [
-      "Consider developing a photo essay or series around a single subject, location, or theme — returning to the same place across seasons, or following a specific community or activity over time. This sustained engagement produces work of greater depth than single-visit photography.",
-      "When photographing people in their environment, try to capture three moments: the approach (person arriving), the engagement (person interacting with environment), and the departure (person leaving). This creates a natural narrative arc.",
-      "Explore the space between landscape and documentary more deliberately. Your 'Low Water' aerial image is a powerful example of environmental storytelling — the tiny human figures against the vast exposed riverbed make a statement about scale and ecological change.",
-      "Consider adding brief, handwritten-style captions or location notes to your images when sharing them. Context transforms a beautiful photograph into a document of a specific time and place."
+      "Razvijte jedan narativni projekat: odaberite temu (ribolov na reci, zimski život u selu, sezonske promene na jednom mestu) i snimajte je tokom 6-12 meseci sa ciljem stvaranja koherentne serije od 10-15 slika.",
+      "Eksperimentišite sa portretima koji uključuju lice subjekta — čak i jedan ili dva portreta u portfoliju bi proširili emocionalni opseg i pokazali vašu svestranost.",
+      "Za dokumentarne slike sa ekološkim temama, razmotrite dodavanje kontekstualnih informacija (lokacija, datum, kontekst) — ovo pretvara fotografije iz estetskih objekata u svedočanstva.",
+      "Pokušajte sa tehnikama 'tihe prisutnosti' — provedite više vremena na jednoj lokaciji pre nego što počnete da snimate, da bi se subjekti navikli na vašu prisutnost i ponašali prirodnije."
     ],
     examplePhotoId: "IMG_2084",
-    exampleCaption: "Into the Mist — your strongest narrative image. The two figures, the misty forest, and the sense of journey create a story that extends beyond the frame."
+    exampleCaption: "U magli — odlično uhvaćen autentičan trenutak, ali serija od 3-5 slika ovog izleta bila bi daleko moćnija od jedne izolovane slike."
   },
   {
-    id: "portfolio",
+    id: "curation",
     category: "06",
-    title: "Portfolio Curation & Consistency",
-    rating: "Good",
-    summary: "The portfolio shows a strong overall identity, but could benefit from tighter curation. A few images feel like they belong to a different photographer — the 'Heron on Ruins' and 'Riverside Layers' images, while technically competent, lack the atmospheric intensity of your best work.",
+    title: "Kuracija portfolija i konzistentnost",
+    rating: "Dobro",
+    summary: "Portfolio pokazuje snažan ukupni identitet, ali bi imao koristi od strože kuracije. Nekoliko slika deluje kao da pripadaju drugom fotografu — 'Čaplja na ruševinama' i 'Slojevi uz reku', dok su tehnički kompetentne, nedostaje im atmosferski intenzitet vašeg najboljeg rada.",
     observations: [
-      "The strongest 10-12 images in this portfolio are genuinely exceptional — they would hold their own in any serious photography context. The challenge is that the remaining images dilute the overall impression.",
-      "There is a slight inconsistency in aspect ratio and orientation — some images are vertical, some horizontal, and the mix can feel unresolved when viewed as a sequence.",
-      "The portfolio spans multiple genres (landscape, wildlife, documentary, architecture) in a way that feels authentic rather than scattered, because the atmospheric and contemplative quality unifies them.",
-      "A few images feel like 'record shots' — technically competent documentation of a scene or subject without a strong compositional or emotional point of view.",
-      "The winter work is consistently the strongest — consider whether a dedicated winter series might be a more focused and powerful presentation of your best work."
+      "Najjačih 10-12 slika u ovom portfoliju su zaista izuzetne — bile bi ravnopravne u svakom ozbiljnom fotografskom kontekstu. Izazov je što preostale slike razblažuju ukupni utisak.",
+      "Postoji blaga nekonzistentnost u omjeru strana i orijentaciji — neke slike su vertikalne, neke horizontalne, i mešavina može delovati nerazrešeno kada se gleda kao sekvenca.",
+      "Portfolio obuhvata više žanrova (pejzaž, divlja priroda, dokumentarno, arhitektura) na način koji deluje autentično, a ne raspršeno, jer ih atmosferski i kontemplativni kvalitet ujedinjuje.",
+      "Nekoliko slika deluje kao 'dokumentacioni snimci' — tehnički kompetentna dokumentacija scene ili subjekta bez snažne kompozicione ili emocionalne tačke gledišta.",
+      "Zimski rad je konzistentno najjači — razmotrite da li bi posvećena zimska serija bila fokusiranija i moćnija prezentacija vašeg najboljeg rada."
     ],
     recommendations: [
-      "Apply a ruthless 'top 15' edit to your portfolio. Show only the images where you cannot identify a single thing you would change. This is harder than it sounds, but the result is a portfolio that commands respect rather than simply demonstrating range.",
-      "Consider organizing your portfolio into themed series rather than presenting all work together. A 'Winter' series, a 'River Life' series, and a 'Seasons' series would each be more powerful than a mixed collection.",
-      "Develop a consistent aspect ratio for your primary portfolio presentation — either 3:2 landscape or 4:5 portrait for vertical images. Consistency in presentation signals professionalism and intentionality.",
-      "For each image you consider including, ask: 'Does this image say something that no other image in the portfolio says?' If the answer is no, consider whether it earns its place."
+      "Primenite nemilosrdnu kuraciju 'top 15': pokazujte samo slike gde ne možete identifikovati ni jednu stvar koju biste promenili. Ovo je teže nego što zvuči, ali rezultat je portfolio koji zahteva poštovanje.",
+      "Razmotrite organizovanje portfolija u tematske serije umesto prikazivanja svih radova zajedno. 'Zimska' serija, 'Rečni život' serija i 'Godišnja doba' serija bile bi svaka moćnija od mešovite kolekcije.",
+      "Razvijte konzistentan omjer strana za vašu primarnu prezentaciju portfolija — 3:2 horizontalno ili 4:5 vertikalno za vertikalne slike. Konzistentnost u prezentaciji signalizuje profesionalnost.",
+      "Za svaku sliku koju razmatrate za uključivanje, pitajte se: 'Da li ova slika govori nešto što nijedna druga slika u portfoliju ne govori?' Ako je odgovor ne, razmotrite da li zaslužuje svoje mesto."
     ],
     examplePhotoId: "IMG_5070_DxO",
-    exampleCaption: "Autumn Portrait — technically accomplished and tonally rich, but its inclusion raises the question of whether portraiture fits the portfolio's dominant landscape/wildlife identity."
+    exampleCaption: "Jesenji portret — tehnički uspešan i tonski bogat, ali njegovo uključivanje postavlja pitanje da li portret odgovara dominantnom pejzažnom/divlje-prirodnom identitetu portfolija."
   }
 ];
 
 const ratingColors: Record<string, string> = {
-  "Strong": "text-emerald-700 bg-emerald-50 border-emerald-200",
-  "Good": "text-primary bg-primary/5 border-primary/20",
-  "Developing": "text-amber-700 bg-amber-50 border-amber-200",
-  "Opportunity": "text-blue-700 bg-blue-50 border-blue-200",
+  "Snažno": "text-emerald-700 bg-emerald-50 border-emerald-200",
+  "Dobro": "text-primary bg-primary/5 border-primary/20",
+  "U razvoju": "text-amber-700 bg-amber-50 border-amber-200",
+  "Prilika": "text-blue-700 bg-blue-50 border-blue-200",
 };
 
 export default function Improvement() {
@@ -179,16 +177,16 @@ export default function Improvement() {
     <div className="min-h-screen bg-background">
       <Navigation />
 
-      {/* Page Header */}
+      {/* Zaglavlje stranice */}
       <section className="pt-32 pb-16">
         <div className="container">
           <div className="max-w-3xl">
-            <p className="section-label mb-3">Constructive Critique</p>
+            <p className="section-label mb-3">Konstruktivna kritika</p>
             <h1 className="font-display text-4xl md:text-5xl font-medium text-foreground leading-tight mb-6">
-              Areas for Growth
+              Oblasti rasta
             </h1>
             <p className="text-lg text-muted-foreground leading-relaxed" style={{ fontFamily: "'Source Serif 4', serif" }}>
-              A specific, section-by-section critique of your photographic practice — identifying concrete opportunities to strengthen your work across composition, light, technique, and storytelling.
+              Specifična, sekcija-po-sekcija kritika vaše fotografske prakse — identifikovanje konkretnih prilika za jačanje rada u kompoziciji, svetlu, tehnici i pripovedanju.
             </p>
           </div>
         </div>
@@ -196,7 +194,7 @@ export default function Improvement() {
 
       <hr className="rule-amber mx-6 md:mx-12 lg:mx-24 mb-16" />
 
-      {/* Overview Summary */}
+      {/* Pregled rezimea */}
       <section className="mb-16">
         <div className="container">
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-3 mb-12">
@@ -204,8 +202,8 @@ export default function Improvement() {
               <button
                 key={section.id}
                 onClick={() => {
-                  toggleSection(section.id);
-                  document.getElementById(section.id)?.scrollIntoView({ behavior: "smooth", block: "start" });
+                  if (!openSections.has(section.id)) toggleSection(section.id);
+                  setTimeout(() => document.getElementById(section.id)?.scrollIntoView({ behavior: "smooth", block: "start" }), 50);
                 }}
                 className="text-left p-4 border border-border hover:border-primary/40 transition-colors"
               >
@@ -222,17 +220,17 @@ export default function Improvement() {
             ))}
           </div>
 
-          {/* Overall note */}
+          {/* Napomena o kritici */}
           <div className="bg-secondary/40 border border-border p-6 max-w-3xl">
-            <p className="section-label mb-2">A Note on This Critique</p>
+            <p className="section-label mb-2">Napomena o ovoj kritici</p>
             <p className="text-sm text-muted-foreground leading-relaxed" style={{ fontFamily: "'Source Serif 4', serif" }}>
-              The observations below are grounded in the specific photographs in this portfolio. Every critique is paired with a concrete recommendation. The goal is not to change your photographic voice — which is already distinctive and authentic — but to help you express it with greater technical precision and intentionality.
+              Zapažanja ispod su zasnovana na specifičnim fotografijama u ovom portfoliju. Svaka kritika je uparen sa konkretnom preporukom. Cilj nije promeniti vaš fotografski glas — koji je već distinktivan i autentičan — već vam pomoći da ga izrazite sa većom tehničkom preciznošću i namernošću.
             </p>
           </div>
         </div>
       </section>
 
-      {/* Critique Sections */}
+      {/* Sekcije kritike */}
       <section className="mb-20">
         <div className="container">
           <div className="space-y-4">
@@ -242,7 +240,7 @@ export default function Improvement() {
 
               return (
                 <div key={section.id} id={section.id} className="border border-border">
-                  {/* Section Header — always visible */}
+                  {/* Zaglavlje sekcije — uvek vidljivo */}
                   <button
                     className="w-full text-left p-6 flex items-center justify-between hover:bg-secondary/30 transition-colors"
                     onClick={() => toggleSection(section.id)}
@@ -261,7 +259,7 @@ export default function Improvement() {
                           </span>
                         </div>
                         {!isOpen && (
-                          <p className="text-sm text-muted-foreground line-clamp-2 hidden md:block" style={{ fontFamily: "'Source Serif 4', serif" }}>
+                          <p className="text-sm text-muted-foreground leading-relaxed line-clamp-1" style={{ fontFamily: "'Source Serif 4', serif" }}>
                             {section.summary}
                           </p>
                         )}
@@ -272,75 +270,64 @@ export default function Improvement() {
                     </div>
                   </button>
 
-                  {/* Expanded Content */}
+                  {/* Razvijeni sadržaj */}
                   {isOpen && (
-                    <div className="border-t border-border">
-                      <div className="p-6 md:p-8">
-                        {/* Summary */}
-                        <p className="text-base text-foreground/80 leading-relaxed mb-8 max-w-3xl" style={{ fontFamily: "'Source Serif 4', serif" }}>
-                          {section.summary}
-                        </p>
+                    <div className="px-6 pb-8 border-t border-border/50">
+                      {/* Rezime */}
+                      <p className="text-base text-muted-foreground leading-relaxed mt-6 mb-8 max-w-3xl" style={{ fontFamily: "'Source Serif 4', serif" }}>
+                        {section.summary}
+                      </p>
 
-                        <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
-                          {/* Observations */}
-                          <div>
-                            <p className="section-label mb-4">Observations</p>
-                            <ol className="space-y-4">
-                              {section.observations.map((obs, i) => (
-                                <li key={i} className="flex gap-4">
-                                  <span className="font-ui text-xs text-muted-foreground flex-shrink-0 mt-1 w-5 text-right" style={{ fontFamily: "'Space Grotesk', sans-serif" }}>
-                                    {i + 1}.
-                                  </span>
-                                  <p className="text-sm text-muted-foreground leading-relaxed" style={{ fontFamily: "'Source Serif 4', serif" }}>
-                                    {obs}
-                                  </p>
-                                </li>
-                              ))}
-                            </ol>
-                          </div>
-
-                          {/* Recommendations */}
-                          <div>
-                            <p className="section-label mb-4">Recommendations</p>
-                            <ol className="space-y-4">
-                              {section.recommendations.map((rec, i) => (
-                                <li key={i} className="flex gap-4">
-                                  <span className="font-ui text-xs text-primary flex-shrink-0 mt-1 w-5 text-right" style={{ fontFamily: "'Space Grotesk', sans-serif" }}>
-                                    →
-                                  </span>
-                                  <p className="text-sm text-foreground/80 leading-relaxed" style={{ fontFamily: "'Source Serif 4', serif" }}>
-                                    {rec}
-                                  </p>
-                                </li>
-                              ))}
-                            </ol>
-                          </div>
+                      <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
+                        {/* Zapažanja */}
+                        <div>
+                          <p className="section-label mb-4">Zapažanja</p>
+                          <ol className="space-y-4">
+                            {section.observations.map((obs, i) => (
+                              <li key={i} className="flex gap-3">
+                                <span className="font-ui text-xs text-muted-foreground flex-shrink-0 mt-1" style={{ fontFamily: "'Space Grotesk', sans-serif" }}>
+                                  {i + 1}.
+                                </span>
+                                <p className="text-sm text-muted-foreground leading-relaxed" style={{ fontFamily: "'Source Serif 4', serif" }}>
+                                  {obs}
+                                </p>
+                              </li>
+                            ))}
+                          </ol>
                         </div>
 
-                        {/* Example Photo */}
-                        {examplePhoto && (
-                          <div className="mt-8 pt-8 border-t border-border">
-                            <p className="section-label mb-4">Reference Image</p>
-                            <div className="flex flex-col md:flex-row gap-6 items-start">
-                              <div className="flex-shrink-0 w-full md:w-64">
-                                <div className="overflow-hidden">
-                                  <img
-                                    src={examplePhoto.src}
-                                    alt={examplePhoto.title}
-                                    className="w-full h-48 object-cover"
-                                    style={{ filter: "saturate(0.85)" }}
-                                  />
-                                </div>
-                              </div>
-                              <div>
-                                <p className="font-display text-base font-medium text-foreground mb-2">{examplePhoto.title}</p>
-                                <p className="text-sm text-muted-foreground leading-relaxed italic" style={{ fontFamily: "'Source Serif 4', serif" }}>
-                                  {section.exampleCaption}
+                        {/* Preporuke */}
+                        <div>
+                          <p className="section-label mb-4">Preporuke</p>
+                          <ol className="space-y-4">
+                            {section.recommendations.map((rec, i) => (
+                              <li key={i} className="flex gap-3">
+                                <span className="font-ui text-xs text-primary flex-shrink-0 mt-1">→</span>
+                                <p className="text-sm text-muted-foreground leading-relaxed" style={{ fontFamily: "'Source Serif 4', serif" }}>
+                                  {rec}
                                 </p>
+                              </li>
+                            ))}
+                          </ol>
+
+                          {/* Referentna slika */}
+                          {examplePhoto && (
+                            <div className="mt-8">
+                              <p className="section-label mb-3">Referentna slika</p>
+                              <div className="overflow-hidden mb-2">
+                                <img
+                                  src={examplePhoto.src}
+                                  alt={examplePhoto.title}
+                                  className="w-full h-48 object-cover"
+                                  style={{ filter: "saturate(0.85)" }}
+                                />
                               </div>
+                              <p className="font-ui text-xs text-muted-foreground leading-relaxed" style={{ letterSpacing: "0.06em" }}>
+                                {examplePhoto.title} — {section.exampleCaption}
+                              </p>
                             </div>
-                          </div>
-                        )}
+                          )}
+                        </div>
                       </div>
                     </div>
                   )}
@@ -351,36 +338,33 @@ export default function Improvement() {
         </div>
       </section>
 
-      <hr className="rule-sage mx-6 md:mx-12 lg:mx-24 mb-16" />
-
-      {/* Closing Summary */}
+      {/* Zaključni rezime */}
       <section className="mb-20">
         <div className="container">
-          <div className="max-w-3xl mx-auto text-center">
-            <p className="section-label mb-4">In Summary</p>
-            <h2 className="font-display text-3xl md:text-4xl font-medium text-foreground mb-6">
-              The Path Forward
+          <div className="bg-secondary/30 border border-border p-8 md:p-12 max-w-4xl">
+            <p className="section-label mb-4">U rezimeu</p>
+            <h2 className="font-display text-3xl font-medium text-foreground mb-6">
+              Put napred
             </h2>
-            <p className="text-base text-muted-foreground leading-relaxed mb-6" style={{ fontFamily: "'Source Serif 4', serif" }}>
-              Your photography already possesses the most important quality: a genuine, personal vision. The technical refinements outlined above are not corrections to a flawed approach — they are tools to help you express what you already see more precisely and powerfully.
+            <p className="text-base text-muted-foreground leading-relaxed mb-8" style={{ fontFamily: "'Source Serif 4', serif" }}>
+              Vaša fotografija već poseduje najvažniji kvalitet: istinsku, ličnu viziju. Tehnička poboljšanja opisana gore nisu ispravke pogrešnog pristupa — to su alati koji vam pomažu da preciznije i moćnije izrazite ono što već vidite.
             </p>
-            <p className="text-base text-muted-foreground leading-relaxed mb-10" style={{ fontFamily: "'Source Serif 4', serif" }}>
-              The single most impactful change you could make is to reduce post-processing intensity by 20-30% across the board. Your best images — the minimalist winter shots, the atmospheric fog work — succeed because they feel real. Trust the light you captured. The camera, the lens, and your eye have already done the work.
+            <p className="text-base text-muted-foreground leading-relaxed mb-8" style={{ fontFamily: "'Source Serif 4', serif" }}>
+              Jedna promena koja bi imala najveći uticaj je smanjenje intenziteta post-obrade za 20-30% u celom portfoliju. Vaše najbolje slike — minimalistični zimski snimci, atmosferski rad sa maglom — uspevaju jer deluju stvarno. Verujte svetlu koje ste uhvatili. Kamera, objektiv i vaše oko su već obavili posao.
             </p>
 
-            {/* Three priority actions */}
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-4 text-left">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-8">
               {[
-                { num: "I", title: "Reduce Processing", body: "Apply a -20% reduction to all clarity, texture, and saturation adjustments. Let the natural light speak." },
-                { num: "II", title: "Faster Shutter Speeds", body: "For wildlife, target 1/2000s minimum. Accept higher ISO — modern noise is better than motion blur." },
-                { num: "III", title: "Foreground First", body: "Before every landscape shot, identify a foreground element. This single habit will transform your landscape work." }
+                { num: "I", title: "Smanjite obradu", body: "Primenite -20% redukciju na sva prilagođavanja jasnoće, teksture i zasićenosti. Neka prirodno svetlo govori." },
+                { num: "II", title: "Brže brzine zatvarača", body: "Za divlju prirodu, ciljajte minimum 1/2000s. Prihvatite viši ISO — moderni šum je uvek bolji od zamućenja pokreta." },
+                { num: "III", title: "Prednji plan na prvom mestu", body: "Pre svakog pejzažnog snimka, identifikujte element prvog plana. Ova jedna navika transformisaće vaš pejzažni rad." }
               ].map(item => (
-                <div key={item.num} className="border border-border p-5">
-                  <span className="font-display text-3xl text-border/60 block mb-3">{item.num}</span>
-                  <h4 className="font-display text-base font-medium text-foreground mb-2">{item.title}</h4>
-                  <p className="text-xs text-muted-foreground leading-relaxed" style={{ fontFamily: "'Source Serif 4', serif" }}>
-                    {item.body}
-                  </p>
+                <div key={item.num} className="flex gap-4">
+                  <span className="font-ui text-3xl font-light text-border flex-shrink-0" style={{ fontFamily: "'Space Grotesk', sans-serif" }}>{item.num}</span>
+                  <div>
+                    <h4 className="font-display text-base font-medium text-foreground mb-2">{item.title}</h4>
+                    <p className="text-sm text-muted-foreground leading-relaxed" style={{ fontFamily: "'Source Serif 4', serif" }}>{item.body}</p>
+                  </div>
                 </div>
               ))}
             </div>
@@ -388,28 +372,28 @@ export default function Improvement() {
         </div>
       </section>
 
-      {/* Bottom Navigation */}
+      {/* Donja navigacija */}
       <section className="pb-20 border-t border-border pt-12">
         <div className="container flex flex-col sm:flex-row gap-4 justify-between items-center">
           <Link href="/analysis">
             <span className="inline-flex items-center gap-3 font-ui text-xs tracking-widest uppercase text-muted-foreground border border-border px-8 py-4 hover:border-foreground hover:text-foreground transition-all" style={{ letterSpacing: "0.15em" }}>
-              <ArrowLeft size={12} /> Style Analysis
+              <ArrowLeft size={12} /> Analiza stila
             </span>
           </Link>
           <Link href="/">
             <span className="inline-flex items-center gap-3 font-ui text-xs tracking-widest uppercase text-foreground border border-foreground px-8 py-4 hover:bg-foreground hover:text-background transition-all" style={{ letterSpacing: "0.15em" }}>
-              Back to Gallery <ArrowRight size={12} />
+              Nazad na galeriju <ArrowRight size={12} />
             </span>
           </Link>
         </div>
       </section>
 
-      {/* Footer */}
+      {/* Podnožje */}
       <footer className="border-t border-border py-8">
         <div className="container flex flex-col md:flex-row items-center justify-between gap-4">
-          <span className="font-display text-sm text-muted-foreground">Through the Lens</span>
+          <span className="font-display text-sm text-muted-foreground">Kroz objektiv</span>
           <span className="font-ui text-xs text-muted-foreground" style={{ letterSpacing: "0.1em" }}>
-            Areas for Growth · 6 Critique Sections
+            Oblasti rasta · 25 fotografija
           </span>
         </div>
       </footer>

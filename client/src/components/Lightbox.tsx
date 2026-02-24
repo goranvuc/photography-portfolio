@@ -1,5 +1,5 @@
 // "Fog & Field" — Nordic Atmospheric Minimalism
-// Lightbox — full-screen photo viewer
+// Lightbox — pregled fotografija na celom ekranu
 
 import { useEffect, useCallback } from "react";
 import { X, ChevronLeft, ChevronRight } from "lucide-react";
@@ -42,38 +42,38 @@ export default function Lightbox({ photo, photos, onClose, onNavigate }: Lightbo
       className="lightbox-overlay"
       onClick={onClose}
     >
-      {/* Close button */}
+      {/* Dugme za zatvaranje */}
       <button
         className="absolute top-5 right-5 text-white/70 hover:text-white transition-colors z-10"
         onClick={onClose}
-        aria-label="Close"
+        aria-label="Zatvori"
       >
         <X size={22} />
       </button>
 
-      {/* Prev button */}
+      {/* Prethodna fotografija */}
       {currentIndex > 0 && (
         <button
           className="absolute left-4 top-1/2 -translate-y-1/2 text-white/60 hover:text-white transition-colors z-10 p-2"
           onClick={(e) => { e.stopPropagation(); handlePrev(); }}
-          aria-label="Previous photo"
+          aria-label="Prethodna fotografija"
         >
           <ChevronLeft size={28} />
         </button>
       )}
 
-      {/* Next button */}
+      {/* Sledeća fotografija */}
       {currentIndex < photos.length - 1 && (
         <button
           className="absolute right-4 top-1/2 -translate-y-1/2 text-white/60 hover:text-white transition-colors z-10 p-2"
           onClick={(e) => { e.stopPropagation(); handleNext(); }}
-          aria-label="Next photo"
+          aria-label="Sledeća fotografija"
         >
           <ChevronRight size={28} />
         </button>
       )}
 
-      {/* Image */}
+      {/* Slika */}
       <div
         className="relative max-w-[90vw] max-h-[85vh] flex flex-col items-center gap-4"
         onClick={(e) => e.stopPropagation()}

@@ -1,5 +1,5 @@
 // "Fog & Field" — Nordic Atmospheric Minimalism
-// Navigation — ultra-thin top bar, left logo, right links
+// Navigacija — ultra-tanka gornja traka, logo levo, linkovi desno
 
 import { Link, useLocation } from "wouter";
 import { useState } from "react";
@@ -10,9 +10,9 @@ export default function Navigation() {
   const [mobileOpen, setMobileOpen] = useState(false);
 
   const links = [
-    { href: "/", label: "Gallery" },
-    { href: "/analysis", label: "Style Analysis" },
-    { href: "/improvement", label: "Areas for Growth" },
+    { href: "/", label: "Galerija" },
+    { href: "/analysis", label: "Analiza stila" },
+    { href: "/improvement", label: "Oblasti rasta" },
   ];
 
   return (
@@ -22,7 +22,7 @@ export default function Navigation() {
           {/* Logo */}
           <Link href="/">
             <span className="font-display text-base font-medium tracking-wide text-foreground hover:text-primary transition-colors">
-              Through the Lens
+              Kroz objektiv
             </span>
           </Link>
 
@@ -48,7 +48,7 @@ export default function Navigation() {
           <button
             className="md:hidden text-foreground p-1"
             onClick={() => setMobileOpen(!mobileOpen)}
-            aria-label="Toggle menu"
+            aria-label="Otvori meni"
           >
             {mobileOpen ? <X size={18} /> : <Menu size={18} />}
           </button>
