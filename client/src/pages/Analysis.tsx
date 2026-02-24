@@ -450,7 +450,7 @@ export default function Analysis() {
         <div className="container flex flex-col md:flex-row items-center justify-between gap-4">
           <span className="font-display text-sm text-muted-foreground">Kroz objektiv</span>
           <span className="font-ui text-xs text-muted-foreground" style={{ letterSpacing: "0.1em" }}>
-            Analiza stila · 25 fotografija
+            © Goran Vučićević · Analiza stila · 25 fotografija
           </span>
         </div>
       </footer>

@@ -177,7 +177,7 @@ export default function Home() {
         <div className="container flex flex-col md:flex-row items-center justify-between gap-4">
           <span className="font-display text-sm text-muted-foreground">Kroz objektiv</span>
           <span className="font-ui text-xs text-muted-foreground" style={{ letterSpacing: "0.1em" }}>
-            25 fotografija · Pejzaž · Divlja priroda · Dokumentarno
+            © Goran Vučićević · 25 fotografija · Pejzaž · Divlja priroda · Dokumentarno
           </span>
         </div>
       </footer>
