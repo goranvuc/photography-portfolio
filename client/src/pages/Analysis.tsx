@@ -75,15 +75,17 @@ function TraitCard({ icon, title, description, examples }: TraitCardProps) {
   );
 }
 
-// Odabrane fotografije za stranicu analize
+// Odabrane fotografije za stranicu analize — prosireni portfolio
 const showcasePhotos = [
   photos.find(p => p.id === "IMG_3240")!, // Zlatna reka
   photos.find(p => p.id === "IMG_7274")!, // Samoća na mirnoj vodi
-  photos.find(p => p.id === "IMG_9755")!, // Beskrajni horizont
-  photos.find(p => p.id === "IMG_5504")!, // Svetiljke u snegu
-  photos.find(p => p.id === "IMG_3176")!, // Čaplja u letu
-  photos.find(p => p.id === "IMG_9496")!, // Mraz u sumrak
-];
+  photos.find(p => p.id === "IMG_4328")!, // Poletanje labuda
+  photos.find(p => p.id === "IMG_3867")!, // Sunce kroz šumu
+  photos.find(p => p.id === "IMG_9287")!, // Ruina crkve
+  photos.find(p => p.id === "IMG_8912")!, // Žitno polje
+  photos.find(p => p.id === "IMG_0841")!, // Dvoje u sumrak
+  photos.find(p => p.id === "IMG_2482")!, // Meteora
+].filter(Boolean) as typeof photos;
 
 export default function Analysis() {
   return (
@@ -99,7 +101,7 @@ export default function Analysis() {
               Analiza stila
             </h1>
             <p className="text-lg text-muted-foreground leading-relaxed" style={{ fontFamily: "'Source Serif 4', serif" }}>
-              Sveobuhvatan pregled vašeg fotografskog glasa — ponavljajuće teme, tehnički potpisi i emocionalni kvaliteti koji definišu vaš rad kroz 25 fotografija.
+              Sveobuhvatan pregled vašeg fotografskog glasa — ponavljajuće teme, tehnički potpisi i emocionalni kvaliteti koji definišu vaš rad kroz 90 fotografija snimljenih tokom više od 10 godina.
             </p>
           </div>
         </div>
@@ -145,19 +147,19 @@ export default function Analysis() {
               </h2>
               <div className="space-y-5 text-muted-foreground leading-relaxed" style={{ fontFamily: "'Source Serif 4', serif" }}>
                 <p>
-                  Vaša fotografija je definisana dubokom usklađenošću sa atmosferom i samoćom. Kroz 25 slika koje obuhvataju četiri godišnja doba, pojavljuje se dosledan glas: onaj koji pronalazi smisao u odnosu između malih, usamljenih subjekata — usamljene ptice, jednog planinara, ribara u sumrak — i ogromne, ravnodušne veličine prirodnog sveta.
+                  Vaša fotografija je definisana dubokom usklađenošću sa atmosferom i samoćom. Kroz 90 slika koje obuhvataju više od 10 godina rada i četiri godišnja doba, pojavljuje se dosledan glas: onaj koji pronalazi smisao u odnosu između malih, usamljenih subjekata — usamljene ptice, jednog planinara, ribara u sumrak — i ogromne, ravnodušne veličine prirodnog sveta.
                 </p>
                 <p>
                   Teleobjektiv je vaš primarni instrument, i njime vladajte sa samopouzdanjem. Kompresija spljoštava prostor u grafičke slojeve, pretvarajući planinsku dolinu u niz povlačećih ravni, ili scenu uz reku u složene horizontalne pojaseve. Ova tehnika nije samo tehnička — ona je filozofska, sugerirajući da su distanca i posmatranje sami po sebi oblici intimnosti.
                 </p>
                 <p>
-                  Vaša paleta oscilira između dva emocionalna registra: toplog jantara i zlata letnjeg i jesenjeg zlatnog časa, i hladnog plavo-sivog zimske magle i snega. Ovo nisu slučajni izbori — oni odražavaju fotografa koji razume da je svetlost raspoloženje, a raspoloženje je značenje.
+                  Vaša paleta oscilira između dva emocionalna registra: toplog jantara i zlata letnjeg i jesenjeg zlatnog časa, i hladnog plavo-sivog zimske magle i snega. Ovo nisu slučajni izbori — oni odražavaju fotografa koji razume da je svetlost raspoloženje, a raspoloženje je značenje. Prosireni portfolio otkriva i trecu nit: dramaticne olujne tonove koji se pojavljuju u arhitektonskim i dokumentarnim radovima, stvarajuci napetost izmedju neba i zemlje.
                 </p>
                 <blockquote className="border-l-2 border-primary/40 pl-5 italic text-foreground/80 my-6">
                   "Najupečatljiviji kvalitet vašeg rada je njegova strpljivost. Ovo su fotografije koje su čekale — pravo svetlo, pravi trenutak, pravo atmosfersko stanje."
                 </blockquote>
                 <p>
-                  Ponavljajuće prisustvo vode — reka, jezera, zaleđenih potoka, maglovitih površina — sugeriše fotografa privučenog refleksivnim, liminalnim prostorima. Voda u vašem radu retko je burna; ona je mirna, nalik ogledalu ili omekšana maglom. Funkcioniše kao metafora za kontemplaciju samu po sebi.
+                  Ponavljajuće prisustvo vode — reka, jezera, zaleđenih potoka, maglovitih površina — sugeriše fotografa privučenog refleksivnim, liminalnim prostorima. Voda u vašem radu retko je burna; ona je mirna, nalik ogledalu ili omekšana maglom. Funkcioniše kao metafora za kontemplaciju samu po sebi. Prosireni portfolio takodje otkriva snaznu dokumentarnu nit: porodice na izletima, deca u prirodi, nestajuce kulturno nasledje — ove slike dodaju emocionalnu toplinu i humanost celokupnom portfoliju.
                 </p>
               </div>
             </div>
@@ -261,17 +263,17 @@ export default function Analysis() {
               <ScoreBar
                 label="Divlja priroda i akcija"
                 score={7.0}
-                description="Snimci čaplje u letu i ljuljanja nad rekom demonstriraju strpljenje i tajming. Neki snimci divlje prirode pokazuju blagu mekoću, što sugeriše prilike za veće brzine zatvarača u teškim svetlosnim uslovima."
+                description="Prosireni portfolio otkriva znacajno siri opseg: labudovi u letu, divlji konji, rode na ledu, raznovrsne ptice. Snimci poletanja labuda i divljih konja demonstriraju napredak u hvatanju pokreta. Neki snimci divlje prirode pokazuju blagu mekocu, sto sugeriše prilike za vece brzine zatvaraca u teškim svetlosnim uslovima."
               />
               <ScoreBar
                 label="Post-obrada"
                 score={7.5}
-                description="Samopouzdana i ekspresivna obrada sa jasnim estetskim pravcem. Dvojna topla/hladna paleta je dobro izvedena. Neke slike pokazuju HDR oreole ili prezasićena neba koja blago narušavaju naturalističke kvalitete najboljeg rada."
+                description="Samopouzdana i ekspresivna obrada sa jasnim estetskim pravcem. Dvojna topla/hladna paleta je dobro izvedena. Poredjenje ranijih i novijih radova pokazuje jasno sazrevanje: kasniji radovi imaju prirodniju, manje agresivnu obradu. Neke starije slike pokazuju HDR oreole ili prezasicena neba."
               />
               <ScoreBar
                 label="Narativna kohezija"
                 score={8.0}
-                description="Portfolio se čita kao ujedinjena celina. Ponavljajući subjekti, dosljedno tonski opsezi i zajednički emocionalni registar stvaraju snažan osećaj autorskog identiteta kroz raznolike subjekte i godišnja doba."
+                description="Sa 90 fotografija, portfolio se i dalje cita kao ujedinjena celina. Ponavljajuci subjekti, dosledni tonski opsezi i zajednicki emocionalni registar stvaraju snazni osecaj autorskog identiteta. Prosireni skup takodje otkriva novu dimenziju: dokumentarnu toplinu porodicnih trenutaka koja dopunjava kontemplativne pejzaze."
               />
             </div>
 
@@ -283,11 +285,10 @@ export default function Analysis() {
               </h2>
 
               {[
-                { genre: "Pejzaž", count: 9, pct: 36, color: "oklch(0.52 0.06 155)" },
-                { genre: "Divlja priroda", count: 5, pct: 20, color: "oklch(0.65 0.08 155)" },
-                { genre: "Dokumentarno", count: 7, pct: 28, color: "oklch(0.72 0.12 75)" },
-                { genre: "Zimske scene", count: 3, pct: 12, color: "oklch(0.82 0.025 220)" },
-                { genre: "Arhitektura", count: 2, pct: 8, color: "oklch(0.35 0.04 155)" },
+                { genre: "Pejzaž", count: 40, pct: 45, color: "oklch(0.52 0.06 155)" },
+                { genre: "Dokumentarno", count: 23, pct: 25, color: "oklch(0.72 0.12 75)" },
+                { genre: "Divlja priroda", count: 18, pct: 20, color: "oklch(0.65 0.08 155)" },
+                { genre: "Arhitektura", count: 9, pct: 10, color: "oklch(0.35 0.04 155)" },
               ].map(item => (
                 <div key={item.genre} className="mb-5">
                   <div className="flex justify-between items-baseline mb-2">
@@ -306,7 +307,7 @@ export default function Analysis() {
                   Kontemplativni naturalista
                 </p>
                 <p className="text-sm text-muted-foreground leading-relaxed" style={{ fontFamily: "'Source Serif 4', serif" }}>
-                  Vaš rad stoji na raskrsnici pejzažne fotografije i ekološkog dokumentarizma. Privlači vas prirodni svet ne kao spektakl, već kao prostor za razmišljanje. Kamera je vaš dnevnik; ove fotografije su unosi u tekuću meditaciju o vremenu, vremenskim prilikama i malosti ljudskog prisustva unutar prirode.
+                  Vaš rad stoji na raskrsnici pejzažne fotografije, ekološkog dokumentarizma i kulturnog pamcenja. Privlaci vas prirodni svet ne kao spektakl, vec kao prostor za razmisljanje. Kamera je vas dnevnik; ove fotografije su unosi u tekucu meditaciju o vremenu, vremenskim prilikama i malosti ljudskog prisustva unutar prirode. Deset godina rada otkriva fotografa koji se razvija, ali nikada ne gubi svoju sustinsku viziju.
                 </p>
               </div>
             </div>
@@ -400,12 +401,12 @@ export default function Analysis() {
               {
                 num: "02",
                 title: "Teleobjektivna vizija",
-                body: "Internalizovali ste teleobjektivnu estetiku: kompresiju, izolaciju, slojevitost. Vaše najbolje slike koriste efekat spljoštavanja objektiva za stvaranje grafičkih, gotovo slikarskih kompozicija. Snimak planinske doline i slojeva uz reku su udžbenički primeri teleobjektiva korišćenog kao kreativnog alata, a ne samo sredstva za približavanje."
+                body: "Internalizovali ste teleobjektivnu estetiku: kompresiju, izolaciju, slojevitost. Vaše najbolje slike koriste efekat spljoštavanja objektiva za stvaranje grafičkih, gotovo slikarskih kompozicija. Serija 'Dva drveta', 'Zimska suma', 'Jesenja paleta' i 'Kamenolom' su udzbenicki primeri teleobjektiva koriscenog kao kreativnog alata, a ne samo sredstva za priblizavanje."
               },
               {
                 num: "03",
                 title: "Minimalistička uzdržanost",
-                body: "Nekoliko vaših najjačih slika — vrana na gredi prekrivenoj snegom, usamljena ptica na maglovitom jezeru — demonstriraju retku sposobnost odupiranja iskušenju da se kadar popuni. Hrabrost da se ostavi ogromni prazan prostor je znak zrelog fotografa koji razume da odsustvo može biti jednako snažno kao i prisustvo."
+                body: "Nekoliko vasih najjacih slika — vrana na gredi prekrivenoj snegom, usamljena ptica na maglovitom jezeru, dva drveta na njivi, zitno polje — demonstriraju retku sposobnost odupiranja iskusenju da se kadar popuni. Hrabrost da se ostavi ogromni prazan prostor je znak zrelog fotografa koji razume da odsustvo moze biti jednako snazno kao i prisustvo."
               },
               {
                 num: "04",
@@ -450,7 +451,7 @@ export default function Analysis() {
         <div className="container flex flex-col md:flex-row items-center justify-between gap-4">
           <span className="font-display text-sm text-muted-foreground">Kroz objektiv</span>
           <span className="font-ui text-xs text-muted-foreground" style={{ letterSpacing: "0.1em" }}>
-            © Goran Vučićević · Analiza stila · 25 fotografija
+            © Goran Vučićević · Analiza stila · 90 fotografija
           </span>
         </div>
       </footer>
