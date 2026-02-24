@@ -17,7 +17,7 @@ export const photos: Photo[] = [
   // ─── ORIGINAL 25 PHOTOS ───────────────────────────────────────────────────
   {
     id: "IMG_7274",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/wVWzLtIZKirqXoGB.jpg",
+    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/HDtgZzlpKeEnnixw.jpg",
     title: "Samoća na mirnoj vodi",
     category: "Divlja priroda",
     season: "Zima",
@@ -28,7 +28,7 @@ export const photos: Photo[] = [
   },
   {
     id: "IMG_9755",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/hCZltdzYEfqikrIS.jpg",
+    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/VCnGIYkysqDItZzP.jpg",
     title: "Beskrajni horizont",
     category: "Pejzaž",
     season: "Leto",
@@ -39,7 +39,7 @@ export const photos: Photo[] = [
   },
   {
     id: "IMG_3240",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/BvLyvcSFYBQBeiZD.jpg",
+    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/QQVxcHcaHkvwMgzX.jpg",
     title: "Zlatna reka",
     category: "Pejzaž",
     season: "Leto",
@@ -50,7 +50,7 @@ export const photos: Photo[] = [
   },
   {
     id: "IMG_9496",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/sdIwYeqhVCbFUFRc.jpg",
+    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/EOBzrDyWgvGVVlSe.jpg",
     title: "Mraz u sumrak",
     category: "Pejzaž",
     season: "Jesen",
@@ -61,7 +61,7 @@ export const photos: Photo[] = [
   },
   {
     id: "IMG_2084",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/MkurKGZvBuwnNNxh.jpg",
+    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/nZlZeAsmfYtyHeUA.jpg",
     title: "U magli",
     category: "Dokumentarno",
     season: "Leto",
@@ -72,7 +72,7 @@ export const photos: Photo[] = [
   },
   {
     id: "IMG_3176",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/PykovAntDmOnNFNj.jpg",
+    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/FvNzOxSctVrFGChf.jpg",
     title: "Čaplja u letu",
     category: "Divlja priroda",
     season: "Leto",
@@ -83,7 +83,7 @@ export const photos: Photo[] = [
   },
   {
     id: "IMG_5504",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/uHEorESBJLGARURq.jpg",
+    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/SJFJreCoxkjEXwHk.jpg",
     title: "Svetiljke u snegu",
     category: "Zima",
     season: "Zima",
@@ -93,7 +93,7 @@ export const photos: Photo[] = [
   },
   {
     id: "IMG_6088",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/gOVvcFsoGtDcPUgv.jpg",
+    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/ZWhRjLCLNSBKZlyT.jpg",
     title: "Planinska zima",
     category: "Pejzaž",
     season: "Zima",
@@ -103,7 +103,7 @@ export const photos: Photo[] = [
   },
   {
     id: "IMG_1797",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/MmanKLaaJIZuabBQ.jpg",
+    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/WGoXASgTGtzKcmca.jpg",
     title: "Oluja nad njivama",
     category: "Pejzaž",
     season: "Leto",
@@ -113,7 +113,7 @@ export const photos: Photo[] = [
   },
   {
     id: "IMG_4379",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/ktJSDXDISKSyuXHb.jpg",
+    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/LpwXrGXCNzuiGZDh.jpg",
     title: "Jutarnja izmaglica",
     category: "Pejzaž",
     season: "Jesen",
@@ -123,7 +123,7 @@ export const photos: Photo[] = [
   },
   {
     id: "IMG_4297",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/ZgzxovAkdATTJSPA.jpg",
+    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/CHxgZDOikfntmEiu.jpg",
     title: "Labudovi kod tornja",
     category: "Divlja priroda",
     season: "Jesen",
@@ -133,7 +133,7 @@ export const photos: Photo[] = [
   },
   {
     id: "IMG_5918",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/EyicaeNlRnghJcbX.jpg",
+    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/IOrsqdiFRQBIDckM.jpg",
     title: "Ribarev put",
     category: "Dokumentarno",
     season: "Zima",
@@ -143,7 +143,7 @@ export const photos: Photo[] = [
   },
   {
     id: "IMG_3633",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/xqQmuZekkfniLFjk.jpg",
+    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/atMqrMIeyDpCxUJY.jpg",
     title: "Vinograd u magli",
     category: "Pejzaž",
     season: "Jesen",
@@ -153,7 +153,7 @@ export const photos: Photo[] = [
   },
   {
     id: "IMG_5979",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/uJxvzbUaQIPVYJUx.jpg",
+    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/YMfmxwWAoErnoZQc.jpg",
     title: "Vrana u zimi",
     category: "Divlja priroda",
     season: "Zima",
@@ -163,7 +163,7 @@ export const photos: Photo[] = [
   },
   {
     id: "IMG_5876",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/xAfKzPjaznuUqZiN.jpg",
+    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/FfVqXHmoLQwaXmUR.jpg",
     title: "Plava šuma",
     category: "Zima",
     season: "Zima",
@@ -173,7 +173,7 @@ export const photos: Photo[] = [
   },
   {
     id: "IMG_4047",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/ZnOMuIyDELUVavyv.jpg",
+    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/tZipeOxSOOFsgXbT.jpg",
     title: "Mala voda",
     category: "Dokumentarno",
     season: "Jesen",
@@ -183,7 +183,7 @@ export const photos: Photo[] = [
   },
   {
     id: "IMG_3573",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/TKBEKUzrJzAMbvgv.jpg",
+    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/tisuVxvNDCzSygEH.jpg",
     title: "Čelični most u sumrak",
     category: "Arhitektura",
     season: "Leto",
@@ -193,7 +193,7 @@ export const photos: Photo[] = [
   },
   {
     id: "IMG_5559",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/GodNxIchzTSJKLwQ.jpg",
+    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/LlIdCbiYovVQHnhM.jpg",
     title: "Zaleđeni potok",
     category: "Zima",
     season: "Zima",
@@ -203,7 +203,7 @@ export const photos: Photo[] = [
   },
   {
     id: "IMG_0554",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/cxBQadkptloTzoVI.jpg",
+    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/dkLjuAbrAmSgGqLi.jpg",
     title: "Ispucala zemlja",
     category: "Dokumentarno",
     season: "Leto",
@@ -213,7 +213,7 @@ export const photos: Photo[] = [
   },
   {
     id: "IMG_3127",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/WqiRIqUMcXcfzMTV.jpg",
+    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/SiTvQboHDFIsWuyc.jpg",
     title: "Ljuljanje nad rekom",
     category: "Dokumentarno",
     season: "Leto",
@@ -223,7 +223,7 @@ export const photos: Photo[] = [
   },
   {
     id: "IMG_3071",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/qPkfyaAXGuFEqHuV.jpg",
+    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/ARGJUjbdEZkWRcth.jpg",
     title: "Slojevi uz reku",
     category: "Arhitektura",
     season: "Leto",
@@ -233,7 +233,7 @@ export const photos: Photo[] = [
   },
   {
     id: "IMG_4032",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/FWKhXrphUMSWTlEf.jpg",
+    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/TyvNBAKdpmvGyfRO.jpg",
     title: "Prazna klupa",
     category: "Dokumentarno",
     season: "Jesen",
@@ -243,7 +243,7 @@ export const photos: Photo[] = [
   },
   {
     id: "IMG_2954",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/UnAhSjuOOSAyhMYx.jpg",
+    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/SXEHacnSFkgqKJxj.jpg",
     title: "Čaplja na ruševinama",
     category: "Divlja priroda",
     season: "Leto",
@@ -253,7 +253,7 @@ export const photos: Photo[] = [
   },
   {
     id: "IMG_4825",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/MYxbPDJnqfSePtqR.jpg",
+    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/yPZiVjBRqnJkYzGK.jpg",
     title: "Pas na stazi",
     category: "Dokumentarno",
     season: "Jesen",
@@ -261,21 +261,10 @@ export const photos: Photo[] = [
     description: "Mali pas trči prema kameri duž šumske staze posute lišćem, bokeh-omekšana stabla stvaraju toplu, intimnu atmosferu.",
     orientation: "portrait",
   },
-  {
-    id: "IMG_5070_DxO",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/JRaAEmHGIyLEHtqH.jpg",
-    title: "Jesenji portret",
-    category: "Dokumentarno",
-    season: "Jesen",
-    mood: "Toplo",
-    description: "Kontemplativni portret smešten u bogate teksture jeseni, topli tonovi sezone obavijaju subjekta u prirodnom svetlu.",
-    orientation: "portrait",
-  },
-
   // ─── NEW 65 PHOTOS ────────────────────────────────────────────────────────
   {
     id: "IMG_4328",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/WJUIzBiFzYKediDA.jpg",
+    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/rolthEeVfOjGOmaS.jpg",
     title: "Poletanje labuda",
     category: "Divlja priroda",
     season: "Jesen",
@@ -286,7 +275,7 @@ export const photos: Photo[] = [
   },
   {
     id: "IMG_4468",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/rrRidnQmZzPASoIM.jpg",
+    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/tlfoYMkmOHnHpkUX.jpg",
     title: "Labud u jutarnjoj magli",
     category: "Divlja priroda",
     season: "Jesen",
@@ -297,7 +286,7 @@ export const photos: Photo[] = [
   },
   {
     id: "IMG_3385",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/QJhiCOSsDiTtulfa.jpg",
+    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/CPjCDeSfwIVIVHnM.jpg",
     title: "Polja u izmaglici",
     category: "Pejzaž",
     season: "Leto",
@@ -307,7 +296,7 @@ export const photos: Photo[] = [
   },
   {
     id: "IMG_4420",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/DVdhHnxPhHhgNFnz.jpg",
+    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/MawjpmaEYLAambzO.jpg",
     title: "Ribar u zlatnom jutru",
     category: "Dokumentarno",
     season: "Proleće",
@@ -318,7 +307,7 @@ export const photos: Photo[] = [
   },
   {
     id: "IMG_4476",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/aKrivQjrupVEKIrH.jpg",
+    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/wiwhSOLURCJaaKik.jpg",
     title: "Drveće u magli",
     category: "Pejzaž",
     season: "Jesen",
@@ -328,7 +317,7 @@ export const photos: Photo[] = [
   },
   {
     id: "IMG_8511",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/QJhiCOSsDiTtulfa.jpg",
+    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/riSyreNjMoMHUkrT.jpg",
     title: "Labudovi na snegu",
     category: "Divlja priroda",
     season: "Zima",
@@ -338,7 +327,7 @@ export const photos: Photo[] = [
   },
   {
     id: "IMG_4469",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/rrRidnQmZzPASoIM.jpg",
+    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/JEMtcQpLphNXdmFU.jpg",
     title: "Plovci u magli",
     category: "Dokumentarno",
     season: "Jesen",
@@ -349,7 +338,7 @@ export const photos: Photo[] = [
   },
   {
     id: "IMG_5057",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/DexyPODEjEnchUDD.jpg",
+    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/cZSdvEKnezuuUtTN.jpg",
     title: "Pogled na grad",
     category: "Dokumentarno",
     season: "Leto",
@@ -359,7 +348,7 @@ export const photos: Photo[] = [
   },
   {
     id: "IMG_9934",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/BhWNuyMgdSuWLdUT.jpg",
+    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/hNKSyIAbRClnPOUa.jpg",
     title: "Kuća pred oluju",
     category: "Arhitektura",
     season: "Leto",
@@ -369,7 +358,7 @@ export const photos: Photo[] = [
   },
   {
     id: "IMG_0849",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/JeZYuJLeIuredZgD.jpg",
+    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/mHnljIgsvEDDDcTD.jpg",
     title: "Samoća u sumrak",
     category: "Dokumentarno",
     season: "Leto",
@@ -380,7 +369,7 @@ export const photos: Photo[] = [
   },
   {
     id: "IMG_6285",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/kbXNOxlahkjxsSXQ.jpg",
+    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/YiuonxUxWjOGAhmv.jpg",
     title: "Dim nad ravnicom",
     category: "Pejzaž",
     season: "Proleće",
@@ -390,7 +379,7 @@ export const photos: Photo[] = [
   },
   {
     id: "IMG_5505",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/lQrQMfyjrYpdauxe.jpg",
+    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/MzYrcjkNFtbRHNrh.jpg",
     title: "Letnji dan na reci",
     category: "Dokumentarno",
     season: "Leto",
@@ -400,7 +389,7 @@ export const photos: Photo[] = [
   },
   {
     id: "IMG_8498",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/tkRHcAEvExGGyEcZ.jpg",
+    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/qvSibUGWBifCoHnY.jpg",
     title: "Roda na ledu",
     category: "Divlja priroda",
     season: "Zima",
@@ -410,7 +399,7 @@ export const photos: Photo[] = [
   },
   {
     id: "IMG_0776",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/tqInxdhKMMvzXXpw.jpg",
+    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/izlCIlEgGKXoYqdJ.jpg",
     title: "Planinski horizont",
     category: "Pejzaž",
     season: "Leto",
@@ -420,7 +409,7 @@ export const photos: Photo[] = [
   },
   {
     id: "IMG_5395",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/kZqrARhGIzqYbBQu.jpg",
+    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/UwGRqpqLbqiUFcIJ.jpg",
     title: "Put kroz ravnicu",
     category: "Pejzaž",
     season: "Leto",
@@ -430,7 +419,7 @@ export const photos: Photo[] = [
   },
   {
     id: "IMG_4053",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/pNOBKtyCvtcXZIAM.jpg",
+    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/OWMuVCxHRiRSQJhJ.jpg",
     title: "Podolci na paši",
     category: "Dokumentarno",
     season: "Leto",
@@ -440,7 +429,7 @@ export const photos: Photo[] = [
   },
   {
     id: "IMG_2569",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/tAqukPgzWpvoaGbl.jpg",
+    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/qjUyxZUiuyXCYvuk.jpg",
     title: "Garan pred oluju",
     category: "Arhitektura",
     season: "Leto",
@@ -451,7 +440,7 @@ export const photos: Photo[] = [
   },
   {
     id: "IMG_8606",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/eTNCXIkdkhyuKbDn.jpg",
+    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/zmJDlLeZGyQtjhMS.jpg",
     title: "Dva drveta",
     category: "Pejzaž",
     season: "Proleće",
@@ -462,7 +451,7 @@ export const photos: Photo[] = [
   },
   {
     id: "IMG_5044",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/JXbLZUoJsJrVLxbK.jpg",
+    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/ktTBQqyfhpOHTQgb.jpg",
     title: "Stara kapija",
     category: "Arhitektura",
     season: "Jesen",
@@ -472,7 +461,7 @@ export const photos: Photo[] = [
   },
   {
     id: "IMG_0841",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/ZDNMnIAlvfrwVRDV.jpg",
+    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/oeIZXLGNGRzIhtWe.jpg",
     title: "Dvoje u sumrak",
     category: "Dokumentarno",
     season: "Leto",
@@ -483,7 +472,7 @@ export const photos: Photo[] = [
   },
   {
     id: "IMG_8135",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/dCSlafukvWCLiLrC.jpg",
+    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/vwfPQRvthgbrEBKb.jpg",
     title: "Zimski mir",
     category: "Pejzaž",
     season: "Zima",
@@ -493,7 +482,7 @@ export const photos: Photo[] = [
   },
   {
     id: "IMG_5354",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/TVqAKkRimHzTvOZN.jpg",
+    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/ISoRzNrBYrabWGsF.jpg",
     title: "Stara tvrđava",
     category: "Arhitektura",
     season: "Jesen",
@@ -503,7 +492,7 @@ export const photos: Photo[] = [
   },
   {
     id: "IMG_6694",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/FEgGuWdPgaosbdeQ.jpg",
+    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/ihUSaVHXwduyBNSL.jpg",
     title: "Sasak u cvatu",
     category: "Divlja priroda",
     season: "Proleće",
@@ -513,7 +502,7 @@ export const photos: Photo[] = [
   },
   {
     id: "IMG_0278",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/rrzsgkOhOSJVAlnX.jpg",
+    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/eyoVjrqcEcdKlbPH.jpg",
     title: "Vinogradi i ravnica",
     category: "Pejzaž",
     season: "Leto",
@@ -523,7 +512,7 @@ export const photos: Photo[] = [
   },
   {
     id: "IMG_9511",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/fYroTOcUkRRjjCnV.jpg",
+    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/BYVeZSoJkdGGJvZV.jpg",
     title: "Polje repice",
     category: "Pejzaž",
     season: "Proleće",
@@ -533,7 +522,7 @@ export const photos: Photo[] = [
   },
   {
     id: "IMG_4547",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/DsNSvwUajXrpLuFm.jpg",
+    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/ZQFMaZeftnGDDgTB.jpg",
     title: "Fruška Gora pred oluju",
     category: "Pejzaž",
     season: "Proleće",
@@ -543,7 +532,7 @@ export const photos: Photo[] = [
   },
   {
     id: "IMG_3186",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/BGlIsaLuviSAjWJy.jpg",
+    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/isvAXkMRfZCOcqfX.jpg",
     title: "Zimska bara",
     category: "Pejzaž",
     season: "Zima",
@@ -554,7 +543,7 @@ export const photos: Photo[] = [
   },
   {
     id: "IMG_2736",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/VdchYqcRWkpEtubh.jpg",
+    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/cDRQscHDFyHapfFM.jpg",
     title: "Sremski pejzaž",
     category: "Dokumentarno",
     season: "Leto",
@@ -564,7 +553,7 @@ export const photos: Photo[] = [
   },
   {
     id: "IMG_0479",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/gjpnvGmUitJYhxis.jpg",
+    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/CGMVoOJYQUAprbJH.jpg",
     title: "Jezero u kamenolomu",
     category: "Pejzaž",
     season: "Leto",
@@ -574,7 +563,7 @@ export const photos: Photo[] = [
   },
   {
     id: "IMG_2475",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/QdwpJniHBtCXGGII.jpg",
+    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/fzviaCyKLiAcLUXr.jpg",
     title: "Meteora",
     category: "Arhitektura",
     season: "Leto",
@@ -584,7 +573,7 @@ export const photos: Photo[] = [
   },
   {
     id: "IMG_7386",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/jPoOenJbpXuRvYus.jpg",
+    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/uvpnpCTkttykdUyf.jpg",
     title: "Poplavna ravnica",
     category: "Pejzaž",
     season: "Leto",
@@ -594,7 +583,7 @@ export const photos: Photo[] = [
   },
   {
     id: "IMG_4129",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/xlqBAsVZZqUnjbcu.jpg",
+    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/ijRESkVAINZYGvwe.jpg",
     title: "Paviljon na Paliću",
     category: "Arhitektura",
     season: "Jesen",
@@ -604,7 +593,7 @@ export const photos: Photo[] = [
   },
   {
     id: "IMG_0823",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/znHiisKnScCdeZKp.jpg",
+    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/mZbEAcIoQzlqCZYp.jpg",
     title: "Zlatno jutro na reci",
     category: "Pejzaž",
     season: "Leto",
@@ -615,7 +604,7 @@ export const photos: Photo[] = [
   },
   {
     id: "IMG_5514",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/xrDuzzkuelzZcvVH.jpg",
+    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/CAejADayogrZIVgH.jpg",
     title: "Most pred oluju",
     category: "Arhitektura",
     season: "Leto",
@@ -625,7 +614,7 @@ export const photos: Photo[] = [
   },
   {
     id: "IMG_3994",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/jKxjYZIlPMzpFObR.jpg",
+    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/RhQzwXYqkiuzWvSL.jpg",
     title: "Put ka zalasku",
     category: "Pejzaž",
     season: "Jesen",
@@ -636,7 +625,7 @@ export const photos: Photo[] = [
   },
   {
     id: "IMG_6819",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/YFbVeNepyalTPPNg.jpg",
+    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/yPKdBfelCDlQJaNa.jpg",
     title: "Ravnica pred oluju",
     category: "Pejzaž",
     season: "Proleće",
@@ -646,7 +635,7 @@ export const photos: Photo[] = [
   },
   {
     id: "IMG_2503",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/lxoUTkzbMtDUblTm.jpg",
+    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/QrZiJTdPgBRzzYTU.jpg",
     title: "Na vrhu sveta",
     category: "Dokumentarno",
     season: "Leto",
@@ -656,7 +645,7 @@ export const photos: Photo[] = [
   },
   {
     id: "IMG_0551",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/iArtGEqOnjJMzJhW.jpg",
+    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/MNMmPjTLqsalhmTb.jpg",
     title: "Isušeno jezero",
     category: "Dokumentarno",
     season: "Leto",
@@ -666,7 +655,7 @@ export const photos: Photo[] = [
   },
   {
     id: "IMG_0140",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/GawxJtBdFBYNUKBc.jpg",
+    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/hnLBuIhqTDRFOOSU.jpg",
     title: "Zalazak na reci",
     category: "Pejzaž",
     season: "Leto",
@@ -676,7 +665,7 @@ export const photos: Photo[] = [
   },
   {
     id: "IMG_3867",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/XhrJGRkSEnDrNkOx.jpg",
+    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/virlonVCpuQYXSRw.jpg",
     title: "Sunce kroz šumu",
     category: "Pejzaž",
     season: "Jesen",
@@ -687,7 +676,7 @@ export const photos: Photo[] = [
   },
   {
     id: "IMG_5642",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/JwxxkdBwWgnzvhaC.jpg",
+    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/eneoFEiiRhCYgUpG.jpg",
     title: "Jesenja Fruška Gora",
     category: "Pejzaž",
     season: "Jesen",
@@ -697,7 +686,7 @@ export const photos: Photo[] = [
   },
   {
     id: "IMG_8603",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/mvPOoTArXkCYilWQ.jpg",
+    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/OXqxCrhazwiSLMjS.jpg",
     title: "Dva drveta na njivi",
     category: "Pejzaž",
     season: "Proleće",
@@ -708,7 +697,7 @@ export const photos: Photo[] = [
   },
   {
     id: "IMG_3196",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/WJUIzBiFzYKediDA.jpg",
+    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/UbbyUEmhKonNhWmM.jpg",
     title: "Vijugavi put",
     category: "Pejzaž",
     season: "Proleće",
@@ -718,7 +707,7 @@ export const photos: Photo[] = [
   },
   {
     id: "IMG_5374",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/rrRidnQmZzPASoIM.jpg",
+    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/bGVInojYozwVoJmp.jpg",
     title: "Proleće na njivama",
     category: "Pejzaž",
     season: "Proleće",
@@ -728,7 +717,7 @@ export const photos: Photo[] = [
   },
   {
     id: "IMG_5579",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/QJhiCOSsDiTtulfa.jpg",
+    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/QrLgrQGFritMskNf.jpg",
     title: "Zmaj nad Sremom",
     category: "Dokumentarno",
     season: "Proleće",
@@ -739,7 +728,7 @@ export const photos: Photo[] = [
   },
   {
     id: "IMG_5954",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/DVdhHnxPhHhgNFnz.jpg",
+    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/hIOMrqLYRkNKcYqG.jpg",
     title: "Reka pred oluju",
     category: "Pejzaž",
     season: "Leto",
@@ -749,7 +738,7 @@ export const photos: Photo[] = [
   },
   {
     id: "IMG_4965",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/aKrivQjrupVEKIrH.jpg",
+    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/oUBsqNYwyHQgObpq.jpg",
     title: "Šumska magla",
     category: "Pejzaž",
     season: "Leto",
@@ -759,7 +748,7 @@ export const photos: Photo[] = [
   },
   {
     id: "IMG_2810",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/rrRidnQmZzPASoIM.jpg",
+    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/PQONMohlSNixmCGa.jpg",
     title: "Zimska šuma",
     category: "Pejzaž",
     season: "Zima",
@@ -769,7 +758,7 @@ export const photos: Photo[] = [
   },
   {
     id: "IMG_8223",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/QJhiCOSsDiTtulfa.jpg",
+    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/gBiekjQxweHktGzq.jpg",
     title: "Jesenja padina",
     category: "Pejzaž",
     season: "Jesen",
@@ -779,7 +768,7 @@ export const photos: Photo[] = [
   },
   {
     id: "IMG_6350",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/DVdhHnxPhHhgNFnz.jpg",
+    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/DOynBnJWwONKgXfM.jpg",
     title: "Odmor pod bukvom",
     category: "Dokumentarno",
     season: "Jesen",
@@ -789,7 +778,7 @@ export const photos: Photo[] = [
   },
   {
     id: "IMG_2482",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/aKrivQjrupVEKIrH.jpg",
+    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/IEhHzzdHgwgGtXke.jpg",
     title: "Meteora — manastir na steni",
     category: "Arhitektura",
     season: "Leto",
@@ -800,7 +789,7 @@ export const photos: Photo[] = [
   },
   {
     id: "IMG_9287",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/rrRidnQmZzPASoIM.jpg",
+    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/imtmUwDoedQPiryn.jpg",
     title: "Ruina crkve",
     category: "Arhitektura",
     season: "Zima",
@@ -811,7 +800,7 @@ export const photos: Photo[] = [
   },
   {
     id: "IMG_8576",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/QJhiCOSsDiTtulfa.jpg",
+    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/bqaMidTwZylibhsE.jpg",
     title: "Šuma u jesen",
     category: "Pejzaž",
     season: "Jesen",
@@ -821,7 +810,7 @@ export const photos: Photo[] = [
   },
   {
     id: "IMG_3029",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/DVdhHnxPhHhgNFnz.jpg",
+    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/xYHvrnnEddFBzLjW.jpg",
     title: "Sunce u šumi",
     category: "Pejzaž",
     season: "Jesen",
@@ -832,7 +821,7 @@ export const photos: Photo[] = [
   },
   {
     id: "IMG_4875",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/aKrivQjrupVEKIrH.jpg",
+    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/vqgfdZRSDywbiafs.jpg",
     title: "Dečak i pas na Fruškoj Gori",
     category: "Dokumentarno",
     season: "Jesen",
@@ -842,7 +831,7 @@ export const photos: Photo[] = [
   },
   {
     id: "IMG_5198",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/rrRidnQmZzPASoIM.jpg",
+    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/vkzbutxTsFZvyVZR.jpg",
     title: "Jesenja paleta",
     category: "Pejzaž",
     season: "Jesen",
@@ -853,7 +842,7 @@ export const photos: Photo[] = [
   },
   {
     id: "IMG_2404",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/QJhiCOSsDiTtulfa.jpg",
+    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/mdpaIuZCAmTaMhke.jpg",
     title: "Napušteni dvorac",
     category: "Arhitektura",
     season: "Leto",
@@ -863,7 +852,7 @@ export const photos: Photo[] = [
   },
   {
     id: "IMG_8912",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/DVdhHnxPhHhgNFnz.jpg",
+    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/eIcCvYtmuOamyAlP.jpg",
     title: "Žitno polje",
     category: "Pejzaž",
     season: "Leto",
@@ -874,7 +863,7 @@ export const photos: Photo[] = [
   },
   {
     id: "IMG_8173",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/aKrivQjrupVEKIrH.jpg",
+    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/heLXenYjjpArlRB.jpg",
     title: "Zlatni zraci",
     category: "Pejzaž",
     season: "Jesen",
@@ -885,7 +874,7 @@ export const photos: Photo[] = [
   },
   {
     id: "IMG_9000",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/rrRidnQmZzPASoIM.jpg",
+    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/HSacVpZljjPftHcn.jpg",
     title: "Suncokretovo polje",
     category: "Pejzaž",
     season: "Leto",
@@ -896,7 +885,7 @@ export const photos: Photo[] = [
   },
   {
     id: "IMG_4405",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/QJhiCOSsDiTtulfa.jpg",
+    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/WanBJGKIfonaHtiY.jpg",
     title: "Zlatni sat na reci",
     category: "Dokumentarno",
     season: "Leto",
@@ -907,7 +896,7 @@ export const photos: Photo[] = [
   },
   {
     id: "IMG_1155",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/DVdhHnxPhHhgNFnz.jpg",
+    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/QpXyhAVSoVKRHXpI.jpg",
     title: "Divlji konji",
     category: "Divlja priroda",
     season: "Leto",
@@ -918,7 +907,7 @@ export const photos: Photo[] = [
   },
   {
     id: "IMG_1967",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/aKrivQjrupVEKIrH.jpg",
+    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/QoDbEEAQRsZqThGC.jpg",
     title: "Stara bukva",
     category: "Pejzaž",
     season: "Leto",
@@ -928,7 +917,7 @@ export const photos: Photo[] = [
   },
   {
     id: "IMG_3067",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/rrRidnQmZzPASoIM.jpg",
+    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/YSKGYdNfpajQUjEp.jpg",
     title: "Kamenolom",
     category: "Dokumentarno",
     season: "Leto",
@@ -938,7 +927,7 @@ export const photos: Photo[] = [
   },
   {
     id: "IMG_7084",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/QJhiCOSsDiTtulfa.jpg",
+    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/DfijirOvEAihNJwS.jpg",
     title: "Livada u cvetu",
     category: "Pejzaž",
     season: "Proleće",
@@ -948,7 +937,7 @@ export const photos: Photo[] = [
   },
   {
     id: "IMG_4526",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/DVdhHnxPhHhgNFnz.jpg",
+    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/kCHKCyhjqmkxIKtu.jpg",
     title: "Staro imanje",
     category: "Dokumentarno",
     season: "Jesen",
@@ -958,7 +947,7 @@ export const photos: Photo[] = [
   },
   {
     id: "IMG_4292",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/aKrivQjrupVEKIrH.jpg",
+    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/FfkdUcTorkVFHlaN.jpg",
     title: "Labudovi na kanalu",
     category: "Divlja priroda",
     season: "Jesen",

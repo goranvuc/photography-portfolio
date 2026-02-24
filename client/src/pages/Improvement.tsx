@@ -186,7 +186,7 @@ export default function Improvement() {
               Oblasti rasta
             </h1>
             <p className="text-lg text-muted-foreground leading-relaxed" style={{ fontFamily: "'Source Serif 4', serif" }}>
-              Specifična, sekcija-po-sekcija kritika vaše fotografske prakse zasnovana na pregledu 90 fotografija — identifikovanje konkretnih prilika za jačanje rada u kompoziciji, svetlu, tehnici i pripovedanju.
+              Specifična, sekcija-po-sekcija kritika vaše fotografske prakse zasnovana na pregledu 91 fotografija — identifikovanje konkretnih prilika za jačanje rada u kompoziciji, svetlu, tehnici i pripovedanju.
             </p>
           </div>
         </div>
@@ -224,7 +224,7 @@ export default function Improvement() {
           <div className="bg-secondary/40 border border-border p-6 max-w-3xl">
             <p className="section-label mb-2">Napomena o ovoj kritici</p>
             <p className="text-sm text-muted-foreground leading-relaxed" style={{ fontFamily: "'Source Serif 4', serif" }}>
-              Zapazanja ispod su zasnovana na specificnim fotografijama u ovom portfoliju od 90 radova. Svaka kritika je uparena sa konkretnom preporukom. Cilj nije promeniti vas fotografski glas — koji je vec distinktivan i autenticnič — vec vam pomoci da ga izrazite sa vecom tehnickom preciznoscu i namernoscum.
+              Zapazanja ispod su zasnovana na specificnim fotografijama u ovom portfoliju od 91 radova. Svaka kritika je uparena sa konkretnom preporukom. Cilj nije promeniti vas fotografski glas — koji je vec distinktivan i autenticnič — vec vam pomoci da ga izrazite sa vecom tehnickom preciznoscu i namernoscum.
             </p>
           </div>
         </div>
@@ -347,10 +347,10 @@ export default function Improvement() {
               Put napred
             </h2>
             <p className="text-base text-muted-foreground leading-relaxed mb-8" style={{ fontFamily: "'Source Serif 4', serif" }}>
-              Vaša fotografija vec poseduje najvazniji kvalitet: istinsku, licnu viziju. Kroz 90 fotografija snimljenih tokom vise od 10 godina, jasno je da ste razvili autenticni fotografski glas koji je duboko ukorejen u specificnom mestu, godisnjim dobima i emocionalnom stanju. Tehnicka poboljsanja opisana gore nisu ispravke pogresnog pristupa — to su alati koji vam pomazu da preciznije i mocnije izrazite ono sto vec vidite.
+              Vaša fotografija vec poseduje najvazniji kvalitet: istinsku, licnu viziju. Kroz 91 fotografija snimljenih tokom vise od 10 godina, jasno je da ste razvili autenticni fotografski glas koji je duboko ukorejen u specificnom mestu, godisnjim dobima i emocionalnom stanju. Tehnicka poboljsanja opisana gore nisu ispravke pogresnog pristupa — to su alati koji vam pomazu da preciznije i mocnije izrazite ono sto vec vidite.
             </p>
             <p className="text-base text-muted-foreground leading-relaxed mb-8" style={{ fontFamily: "'Source Serif 4', serif" }}>
-              Jedna promena koja bi imala najveći uticaj je smanjenje intenziteta post-obrade za 20-30% u celom portfoliju. Vaše najbolje slike — minimalisticki zimski snimci, atmosferski rad sa maglom, dokumentarni trenuci sa porodicom — uspevaju jer deluju stvarno. Verujte svetlu koje ste uhvatili. Kamera, objektiv i vaše oko su vec obavili posao. Prosireni portfolio od 90 fotografija takodje otkriva novu dimenziju: dokumentarnu toplinu koja je jednako snazna kao i kontemplativni pejzazi. Razvijte obe niti.
+              Jedna promena koja bi imala najveći uticaj je smanjenje intenziteta post-obrade za 20-30% u celom portfoliju. Vaše najbolje slike — minimalisticki zimski snimci, atmosferski rad sa maglom, dokumentarni trenuci sa porodicom — uspevaju jer deluju stvarno. Verujte svetlu koje ste uhvatili. Kamera, objektiv i vaše oko su vec obavili posao. Prosireni portfolio od 91 fotografija takodje otkriva novu dimenziju: dokumentarnu toplinu koja je jednako snazna kao i kontemplativni pejzazi. Razvijte obe niti.
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-8">
@@ -394,7 +394,7 @@ export default function Improvement() {
         <div className="container flex flex-col md:flex-row items-center justify-between gap-4">
           <span className="font-display text-sm text-muted-foreground">Kroz objektiv</span>
           <span className="font-ui text-xs text-muted-foreground" style={{ letterSpacing: "0.1em" }}>
-            © Goran Vučićević · Oblasti rasta · 90 fotografija
+            © Goran Vučićević · Oblasti rasta · 91 fotografija
           </span>
         </div>
       </footer>

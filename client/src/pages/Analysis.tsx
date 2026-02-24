@@ -101,7 +101,7 @@ export default function Analysis() {
               Analiza stila
             </h1>
             <p className="text-lg text-muted-foreground leading-relaxed" style={{ fontFamily: "'Source Serif 4', serif" }}>
-              Sveobuhvatan pregled vašeg fotografskog glasa — ponavljajuće teme, tehnički potpisi i emocionalni kvaliteti koji definišu vaš rad kroz 90 fotografija snimljenih tokom više od 10 godina.
+              Sveobuhvatan pregled vašeg fotografskog glasa — ponavljajuće teme, tehnički potpisi i emocionalni kvaliteti koji definišu vaš rad kroz 91 fotografija snimljenih tokom više od 10 godina.
             </p>
           </div>
         </div>
@@ -147,7 +147,7 @@ export default function Analysis() {
               </h2>
               <div className="space-y-5 text-muted-foreground leading-relaxed" style={{ fontFamily: "'Source Serif 4', serif" }}>
                 <p>
-                  Vaša fotografija je definisana dubokom usklađenošću sa atmosferom i samoćom. Kroz 90 slika koje obuhvataju više od 10 godina rada i četiri godišnja doba, pojavljuje se dosledan glas: onaj koji pronalazi smisao u odnosu između malih, usamljenih subjekata — usamljene ptice, jednog planinara, ribara u sumrak — i ogromne, ravnodušne veličine prirodnog sveta.
+                  Vaša fotografija je definisana dubokom usklađenošću sa atmosferom i samoćom. Kroz 91 slika koje obuhvataju više od 10 godina rada i četiri godišnja doba, pojavljuje se dosledan glas: onaj koji pronalazi smisao u odnosu između malih, usamljenih subjekata — usamljene ptice, jednog planinara, ribara u sumrak — i ogromne, ravnodušne veličine prirodnog sveta.
                 </p>
                 <p>
                   Teleobjektiv je vaš primarni instrument, i njime vladajte sa samopouzdanjem. Kompresija spljoštava prostor u grafičke slojeve, pretvarajući planinsku dolinu u niz povlačećih ravni, ili scenu uz reku u složene horizontalne pojaseve. Ova tehnika nije samo tehnička — ona je filozofska, sugerirajući da su distanca i posmatranje sami po sebi oblici intimnosti.
@@ -273,7 +273,7 @@ export default function Analysis() {
               <ScoreBar
                 label="Narativna kohezija"
                 score={8.0}
-                description="Sa 90 fotografija, portfolio se i dalje cita kao ujedinjena celina. Ponavljajuci subjekti, dosledni tonski opsezi i zajednicki emocionalni registar stvaraju snazni osecaj autorskog identiteta. Prosireni skup takodje otkriva novu dimenziju: dokumentarnu toplinu porodicnih trenutaka koja dopunjava kontemplativne pejzaze."
+                description="Sa 91 fotografija, portfolio se i dalje cita kao ujedinjena celina. Ponavljajuci subjekti, dosledni tonski opsezi i zajednicki emocionalni registar stvaraju snazni osecaj autorskog identiteta. Prosireni skup takodje otkriva novu dimenziju: dokumentarnu toplinu porodicnih trenutaka koja dopunjava kontemplativne pejzaze."
               />
             </div>
 
@@ -451,7 +451,7 @@ export default function Analysis() {
         <div className="container flex flex-col md:flex-row items-center justify-between gap-4">
           <span className="font-display text-sm text-muted-foreground">Kroz objektiv</span>
           <span className="font-ui text-xs text-muted-foreground" style={{ letterSpacing: "0.1em" }}>
-            © Goran Vučićević · Analiza stila · 90 fotografija
+            © Goran Vučićević · Analiza stila · 91 fotografija
           </span>
         </div>
       </footer>
