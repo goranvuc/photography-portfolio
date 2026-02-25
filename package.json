@@ -11,9 +11,12 @@
     "format": "prettier --write ."
   },
   "dependencies": {
+    "clsx": "^2.1.1",
     "lucide-react": "^0.453.0",
     "react": "^19.2.1",
     "react-dom": "^19.2.1",
+    "tailwind-merge": "^3.0.2",
+    "tw-animate-css": "^1.2.5",
     "wouter": "^3.3.5"
   },
   "devDependencies": {
