@@ -11,6 +11,7 @@ export interface Photo {
   description: string;
   orientation: "landscape" | "portrait" | "square";
   featured?: boolean;
+  story?: string;
 }
 
 export const photos: Photo[] = [
@@ -25,6 +26,19 @@ export const photos: Photo[] = [
     description: "Usamljena bela ptica klizi po jezeru obavijenom maglom, okružena sablasnim siluetama potopljenih stabala koja se ogledaju u staklastoj površini.",
     orientation: "landscape",
     featured: true,
+    story: `## Tišina koja govori
+
+Bilo je jedno od onih zimskih jutara kada se svet zaustavi. **Magla je obavijala jezero** kao pamučni prekrivač, gutajući zvuke i boje, ostavljajući samo belo i sivo.
+
+Čekao sam skoro sat vremena, nepomičan na obali, dok se temperatura spuštala ispod nule. Prsti su mi utrnuli oko okidača.
+
+### Savršen trenutak
+
+A onda se pojavila — *usamljena bela čaplja*, klizeći po površini vode bez ijednog talasa. Njen odraz je bio savršen na staklastoj površini. Potopljena stabla iza nje stvorila su sablasni okvir, kao da je cela scena izrežirana za pozorišnu predstavu.
+
+> Ponekad najlepše fotografije nastaju kada prestaneš da tražiš i počneš da čekaš.
+
+Ovo je jedna od mojih najdražih slika jer govori o **strpljenju** — i u fotografiji i u životu. Svaki put kad je pogledam, setim se tog ledenog jutra i tople zahvalnosti što sam bio tamo u pravom trenutku.`,
   },
   {
     id: "IMG_9755",
@@ -36,6 +50,21 @@ export const photos: Photo[] = [
     description: "Usamljeni planinar stoji na ivici planinskog vrha, zasenjen panoramskim pogledom na valovita brda i dramatično nebo ispunjeno oblacima.",
     orientation: "landscape",
     featured: true,
+    story: `## Između neba i zemlje
+
+Posle pet sati uspona, stajao sam na ivici sveta. **Valovita brda** su se prostirala u svim pravcima, svako sledeće bleđe od prethodnog, dok se nebo mešalo sa horizontom u beskrajnoj plavoj izmaglici.
+
+Planinar ispred mene je zastao na samom rubu — mala silueta naspram ogromnog prostranstva. Nije se pomerao minutima, samo je gledao.
+
+### Razmera
+
+Ova slika me podseća koliko smo *mali* u poređenju sa prirodom. Ali paradoksalno — upravo ta malenkost nas čini hrabrim. Svaki korak na planini je pobeda nad gravitacijom, nad strahom, nad sopstvenim granicama.
+
+- **Nadmorska visina**: ~1.700m
+- **Vreme uspona**: 5 sati
+- **Temperatura**: 14°C sa vetrom
+
+> Na vrhu planine shvatiš da cilj nikada nije bio vrh — cilj je bio put.`,
   },
   {
     id: "IMG_3240",
@@ -47,6 +76,21 @@ export const photos: Photo[] = [
     description: "Silueta ribara seče sjajni zalazak sunca na reci, dok se voda pretvara u tečno zlato pod umirućim svetlom.",
     orientation: "landscape",
     featured: true,
+    story: `## Zlatni sat
+
+Ribari na ovoj reci znaju nešto što većina nas zaboravlja — da je **zalazak sunca** najdragoceniji deo dana. Svako veče, kada se sunce spusti dovoljno nisko, reka se pretvori u tečno zlato.
+
+Stigao sam na obalu oko 18:30, noseći samo fotoaparat i stativ. Svetlost se menjala svakog minuta — od žute, preko narandžaste, do duboke crvene.
+
+### Tehnika
+
+Ovo je snimljeno sa **teleobiektivom od 200mm**, što je kompresovalo slojeve — ribara, vodu i nebo — u jedan ravni, grafički kompozit. Ekspozicija je bila namerno podeksponirana za pola stopa da bi se sačuvala zasićenost boja.
+
+1. Čekanje pravog trenutka (oko 40 minuta)
+2. Fokus na siluetu ribara
+3. Ekspozicija za nebo, ne za senke
+
+> Najbolje svetlo traje samo **12 minuta**. Profesionalci to zovu "zlatni prozor" — i kad prođe, prošao je zauvek.`,
   },
   {
     id: "IMG_9496",
@@ -366,6 +410,19 @@ export const photos: Photo[] = [
     description: "Silueta usamljene osobe na klupi okružena uličnim lampama na pozadini spektakularnog narandžastog zalaska sunca. Jedna od najsnažnijih emocionalnih slika u portfoliju.",
     orientation: "landscape",
     featured: true,
+    story: `## Priča o čekanju
+
+Svako veče, otprilike u isto vreme, ovaj čovek je dolazio na istu klupu. **Sedeo je sam**, okrenut prema zapadu, i gledao kako sunce tone.
+
+Nisam ga poznavao. Nisam ga ni pitao zašto dolazi. Fotografisao sam ga tri večeri za redom, iz daljine, ne želeći da narusim njegov mir.
+
+### Treće veče
+
+Trećeg večera nebo je *eksplodiralo* bojama — narandžastom, zlatnom, ružičastom. Ulične lampe su se upalile jedna za drugom, okružujući ga toplim krugovima svetlosti. Njegova silueta je izgledala kao da pripada nekom drugom vremenu.
+
+> Ova fotografija me uvek podseća na reči Edvarda Hopera: *"Možda nisam baš ljudski. Ono što sam želeo da uradim je da naslikam sunčevu svetlost na zidu kuće."*
+
+Ponekad jedna slika kaže sve o **samoći** — ne onoj tužnoj, već onoj izabranoj. Onoj koja nas vraća sebi.`,
   },
   {
     id: "IMG_6285",
@@ -437,6 +494,21 @@ export const photos: Photo[] = [
     description: "Tradicionalni drveni garan — simbol panonskog pejzaža — siluetiran na pozadini dramatičnog olujnog neba. Ikona srpske ravnice u svom najmoćnijem obliku.",
     orientation: "portrait",
     featured: true,
+    story: `## Poslednji stražar ravnice
+
+**Garani** nestaju. Svake godine ih je sve manje — propadaju, raspadaju se, ili ih jednostavno sruše da bi napravili mesta za nešto "korisnije". A oni su nekada bili *srce svakog panonskog sela*.
+
+Ovaj garan sam pronašao na putu između dva sela, sam na njivi, okružen pšenicom. Iza njega se skupljala oluja — teški, tamni oblaci koji su se kretali iznenađujucom brzinom.
+
+### Simbolika
+
+Garan je nekada služio za navodnjavanje — drvena poluga sa kantom na jednom kraju i protivteg na drugom. Jednostavan mehanizam, star stotinama godina. Ali njegova **silueta** je nešto posebno — vitka, elegantna, gotovo kaligrafska linija na horizontu.
+
+- **Lokacija**: Sremska ravnica, okolina Rume
+- **Doba dana**: Kasno popodne, pred oluju
+- **Preostali garani u Sremu**: manje od 50
+
+> Fotografišem ove strukture jer znam da za deset godina možda neće postojati. Svaka slika je mali čin očuvanja.`,
   },
   {
     id: "IMG_8606",
