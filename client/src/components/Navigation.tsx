@@ -13,6 +13,7 @@ export default function Navigation() {
     { href: "/", label: "Galerija" },
     { href: "/analysis", label: "Analiza stila" },
     { href: "/improvement", label: "Oblasti rasta" },
+    { href: "/about", label: "O meni" },
   ];
 
   return (
