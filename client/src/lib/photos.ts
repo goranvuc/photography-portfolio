@@ -868,7 +868,7 @@ export const photos: Photo[] = [
     category: "Pejzaž",
     season: "Jesen",
     mood: "Magično",
-    description: "Jesennja bukova šuma prožeta zlatnim krepuskularnim zracima, pod od palih listova i senke stabala stvaraju dramatičan uzorak svetlosti i tame.",
+    description: "Jesenja bukova šuma prožeta zlatnim krepuskularnim zracima, pod od palih listova i senke stabala stvaraju dramatičan uzorak svetlosti i tame.",
     orientation: "landscape",
     featured: true,
   },
