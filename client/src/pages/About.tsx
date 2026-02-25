@@ -19,30 +19,30 @@ export default function About() {
       <nav className="sticky top-0 z-50 bg-background/95 backdrop-blur-sm border-b border-border/40">
         <div className="container py-4 flex items-center justify-between">
           <Link href="/">
-            <a className="text-lg font-serif font-bold text-foreground hover:text-muted-foreground transition-colors">
+            <span className="text-lg font-serif font-bold text-foreground hover:text-muted-foreground transition-colors cursor-pointer">
               Kroz objektiv
-            </a>
+            </span>
           </Link>
           <div className="flex gap-8 items-center">
             <Link href="/">
-              <a className="text-sm uppercase tracking-wider text-muted-foreground hover:text-foreground transition-colors">
+              <span className="text-sm uppercase tracking-wider text-muted-foreground hover:text-foreground transition-colors cursor-pointer">
                 Galerija
-              </a>
+              </span>
             </Link>
             <Link href="/analysis">
-              <a className="text-sm uppercase tracking-wider text-muted-foreground hover:text-foreground transition-colors">
+              <span className="text-sm uppercase tracking-wider text-muted-foreground hover:text-foreground transition-colors cursor-pointer">
                 Analiza stila
-              </a>
+              </span>
             </Link>
             <Link href="/improvement">
-              <a className="text-sm uppercase tracking-wider text-muted-foreground hover:text-foreground transition-colors">
+              <span className="text-sm uppercase tracking-wider text-muted-foreground hover:text-foreground transition-colors cursor-pointer">
                 Oblasti rasta
-              </a>
+              </span>
             </Link>
             <Link href="/about">
-              <a className="text-sm uppercase tracking-wider text-accent font-semibold">
+              <span className="text-sm uppercase tracking-wider text-accent font-semibold cursor-pointer">
                 O meni
-              </a>
+              </span>
             </Link>
           </div>
         </div>
