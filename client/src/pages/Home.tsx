@@ -113,8 +113,8 @@ export default function Home() {
                   onClick={() => setActiveCategory(cat)}
                   aria-pressed={activeCategory === cat}
                   className={`font-ui text-xs px-4 py-2 transition-all border tracking-[0.08em] ${activeCategory === cat
-                      ? "bg-foreground text-background border-foreground"
-                      : "bg-transparent text-muted-foreground border-border hover:border-foreground hover:text-foreground"
+                    ? "bg-foreground text-background border-foreground"
+                    : "bg-transparent text-muted-foreground border-border hover:border-foreground hover:text-foreground"
                     }`}
                 >
                   {cat}
@@ -132,8 +132,8 @@ export default function Home() {
                 data-photo-id={photo.id}
                 ref={setPhotoRef(photo.id)}
                 className={`photo-card break-inside-avoid mb-4 overflow-hidden group relative transition-all duration-700 ${visiblePhotos.has(photo.id)
-                    ? "opacity-100 translate-y-0"
-                    : "opacity-0 translate-y-6"
+                  ? "opacity-100 translate-y-0"
+                  : "opacity-0 translate-y-6"
                   }`}
                 style={{ transitionDelay: `${(index % 6) * 60}ms` }}
               >
@@ -147,7 +147,7 @@ export default function Home() {
                 </div>
 
                 {/* Hover overlay sa naslovom i akcionim ikonama */}
-                <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-400 flex items-end p-4 pointer-events-none">
+                <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent opacity-100 sm:opacity-0 sm:group-hover:opacity-100 transition-opacity duration-400 flex items-end p-4 pointer-events-none">
                   <div className="flex-1 min-w-0">
                     <p className="font-display text-white text-sm font-medium">{photo.title}</p>
                     <p className="font-ui text-white/60 text-xs mt-0.5 tracking-[0.1em]">
@@ -180,7 +180,7 @@ export default function Home() {
 
                 {/* Story badge — mala oznaka vidljiva i bez hovera */}
                 {photo.story && (
-                  <div className="absolute top-2.5 right-2.5 bg-black/50 backdrop-blur-sm rounded-full p-1.5 opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none">
+                  <div className="absolute top-2.5 right-2.5 bg-black/50 backdrop-blur-sm rounded-full p-1.5 opacity-100 sm:opacity-0 sm:group-hover:opacity-100 transition-opacity duration-300 pointer-events-none">
                     <BookOpen size={11} className="text-amber-300" />
                   </div>
                 )}
