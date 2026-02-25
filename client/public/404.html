@@ -6,7 +6,7 @@
     <script>
       // SPA redirect for GitHub Pages
       // Converts path to query string so index.html can restore it
-      var pathSegmentsToKeep = 1; // Keep /photography-portfolio prefix
+      var pathSegmentsToKeep = 0; // Custom domain, no subfolder prefix
       var l = window.location;
       l.replace(
         l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +
