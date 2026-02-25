@@ -186,7 +186,7 @@ export default function Improvement() {
               Oblasti rasta
             </h1>
             <p className="text-lg text-muted-foreground leading-relaxed" style={{ fontFamily: "'Source Serif 4', serif" }}>
-              Specifična, sekcija-po-sekcija kritika vaše fotografske prakse zasnovana na pregledu 91 fotografija — identifikovanje konkretnih prilika za jačanje rada u kompoziciji, svetlu, tehnici i pripovedanju.
+              Specifična, sekcija-po-sekcija kritika vaše fotografske prakse zasnovana na pregledu {photos.length} fotografija — identifikovanje konkretnih prilika za jačanje rada u kompoziciji, svetlu, tehnici i pripovedanju.
             </p>
           </div>
         </div>
@@ -394,7 +394,7 @@ export default function Improvement() {
         <div className="container flex flex-col md:flex-row items-center justify-between gap-4">
           <span className="font-display text-sm text-muted-foreground">Kroz objektiv</span>
           <span className="font-ui text-xs text-muted-foreground" style={{ letterSpacing: "0.1em" }}>
-            © Goran Vučićević · Oblasti rasta · 91 fotografija
+            © Goran Vučićević · Oblasti rasta · {photos.length} fotografija
           </span>
         </div>
       </footer>

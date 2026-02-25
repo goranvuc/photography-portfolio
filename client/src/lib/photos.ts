@@ -1,5 +1,5 @@
 // Design: "Fog & Field" Nordic Atmospheric Minimalism
-// Complete portfolio — 90 photographs by Goran Vucicevic
+// Complete portfolio by Goran Vucicevic
 
 export interface Photo {
   id: string;

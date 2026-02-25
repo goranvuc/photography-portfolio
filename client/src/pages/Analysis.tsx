@@ -75,17 +75,14 @@ function TraitCard({ icon, title, description, examples }: TraitCardProps) {
   );
 }
 
-// Odabrane fotografije za stranicu analize — prosireni portfolio
-const showcasePhotos = [
-  photos.find(p => p.id === "IMG_3240")!, // Zlatna reka
-  photos.find(p => p.id === "IMG_7274")!, // Samoća na mirnoj vodi
-  photos.find(p => p.id === "IMG_4328")!, // Poletanje labuda
-  photos.find(p => p.id === "IMG_3867")!, // Sunce kroz šumu
-  photos.find(p => p.id === "IMG_9287")!, // Ruina crkve
-  photos.find(p => p.id === "IMG_8912")!, // Žitno polje
-  photos.find(p => p.id === "IMG_0841")!, // Dvoje u sumrak
-  photos.find(p => p.id === "IMG_2482")!, // Meteora
-].filter(Boolean) as typeof photos;
+// Helper za bezbedan pristup fotografijama po ID-u
+function findPhoto(id: string) {
+  return photos.find(p => p.id === id);
+}
+
+// Odabrane fotografije za stranicu analize
+const showcasePhotoIds = ["IMG_3240", "IMG_7274", "IMG_4328", "IMG_3867", "IMG_9287", "IMG_8912", "IMG_0841", "IMG_2482"];
+const showcasePhotos = showcasePhotoIds.map(findPhoto).filter((p): p is typeof photos[number] => p != null);
 
 export default function Analysis() {
   return (
@@ -101,7 +98,7 @@ export default function Analysis() {
               Analiza stila
             </h1>
             <p className="text-lg text-muted-foreground leading-relaxed" style={{ fontFamily: "'Source Serif 4', serif" }}>
-              Sveobuhvatan pregled vašeg fotografskog glasa — ponavljajuće teme, tehnički potpisi i emocionalni kvaliteti koji definišu vaš rad kroz 91 fotografija snimljenih tokom više od 10 godina.
+              Sveobuhvatan pregled vašeg fotografskog glasa — ponavljajuće teme, tehnički potpisi i emocionalni kvaliteti koji definišu vaš rad kroz {photos.length} fotografija snimljenih tokom više od 10 godina.
             </p>
           </div>
         </div>
@@ -168,7 +165,7 @@ export default function Analysis() {
             <div className="sticky top-20">
               <div className="overflow-hidden mb-3">
                 <img
-                  src={photos.find(p => p.id === "IMG_7274")!.src}
+                  src={findPhoto("IMG_7274")?.src}
                   alt="Samoća na mirnoj vodi"
                   className="w-full h-auto"
                   style={{ filter: "saturate(0.85)" }}
@@ -273,7 +270,7 @@ export default function Analysis() {
               <ScoreBar
                 label="Narativna kohezija"
                 score={8.0}
-                description="Sa 91 fotografija, portfolio se i dalje cita kao ujedinjena celina. Ponavljajuci subjekti, dosledni tonski opsezi i zajednicki emocionalni registar stvaraju snazni osecaj autorskog identiteta. Prosireni skup takodje otkriva novu dimenziju: dokumentarnu toplinu porodicnih trenutaka koja dopunjava kontemplativne pejzaze."
+                description={`Sa ${photos.length} fotografija, portfolio se i dalje cita kao ujedinjena celina. Ponavljajuci subjekti, dosledni tonski opsezi i zajednicki emocionalni registar stvaraju snazni osecaj autorskog identiteta. Prosireni skup takodje otkriva novu dimenziju: dokumentarnu toplinu porodicnih trenutaka koja dopunjava kontemplativne pejzaze.`}
               />
             </div>
 
@@ -358,7 +355,7 @@ export default function Analysis() {
             <div>
               <div className="overflow-hidden">
                 <img
-                  src={photos.find(p => p.id === "IMG_3240")!.src}
+                  src={findPhoto("IMG_3240")?.src}
                   alt="Primer toplog registra"
                   className="w-full h-48 md:h-64 object-cover"
                   style={{ filter: "saturate(0.85)" }}
@@ -369,7 +366,7 @@ export default function Analysis() {
             <div>
               <div className="overflow-hidden">
                 <img
-                  src={photos.find(p => p.id === "IMG_5876")!.src}
+                  src={findPhoto("IMG_5876")?.src}
                   alt="Primer hladnog registra"
                   className="w-full h-48 md:h-64 object-cover"
                   style={{ filter: "saturate(0.85)" }}
@@ -451,7 +448,7 @@ export default function Analysis() {
         <div className="container flex flex-col md:flex-row items-center justify-between gap-4">
           <span className="font-display text-sm text-muted-foreground">Kroz objektiv</span>
           <span className="font-ui text-xs text-muted-foreground" style={{ letterSpacing: "0.1em" }}>
-            © Goran Vučićević · Analiza stila · 91 fotografija
+            © Goran Vučićević · Analiza stila · {photos.length} fotografija
           </span>
         </div>
       </footer>

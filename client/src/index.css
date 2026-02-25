@@ -141,10 +141,7 @@
     padding-right: 1.5rem;
   }
 
-  .flex {
-    min-height: 0;
-    min-width: 0;
-  }
+  /* Primenjuj min-h-0/min-w-0 selektivno gde je potrebno, ne globalno na .flex */
 
   @media (min-width: 640px) {
     .container {

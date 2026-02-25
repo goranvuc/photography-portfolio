@@ -1,7 +1,7 @@
 // "Fog & Field" — Nordic Atmospheric Minimalism
 // Lightbox — pregled fotografija na celom ekranu
 
-import { useEffect, useCallback } from "react";
+import { useEffect, useCallback, useRef } from "react";
 import { X, ChevronLeft, ChevronRight } from "lucide-react";
 import { Photo } from "@/lib/photos";
 
@@ -14,6 +14,7 @@ interface LightboxProps {
 
 export default function Lightbox({ photo, photos, onClose, onNavigate }: LightboxProps) {
   const currentIndex = photos.findIndex(p => p.id === photo.id);
+  const closeButtonRef = useRef<HTMLButtonElement>(null);
 
   const handlePrev = useCallback(() => {
     if (currentIndex > 0) onNavigate(photos[currentIndex - 1]);
@@ -31,6 +32,10 @@ export default function Lightbox({ photo, photos, onClose, onNavigate }: Lightbo
     };
     document.addEventListener("keydown", handleKey);
     document.body.style.overflow = "hidden";
+
+    // Fokusiraj dugme za zatvaranje kad se lightbox otvori
+    closeButtonRef.current?.focus();
+
     return () => {
       document.removeEventListener("keydown", handleKey);
       document.body.style.overflow = "";
@@ -41,9 +46,13 @@ export default function Lightbox({ photo, photos, onClose, onNavigate }: Lightbo
     <div
       className="lightbox-overlay"
       onClick={onClose}
+      role="dialog"
+      aria-modal="true"
+      aria-label={`Fotografija: ${photo.title}`}
     >
       {/* Dugme za zatvaranje */}
       <button
+        ref={closeButtonRef}
         className="absolute top-5 right-5 text-white/70 hover:text-white transition-colors z-10"
         onClick={onClose}
         aria-label="Zatvori"
@@ -82,11 +91,10 @@ export default function Lightbox({ photo, photos, onClose, onNavigate }: Lightbo
           src={photo.src}
           alt={photo.title}
           className="max-w-full max-h-[75vh] object-contain"
-          style={{ filter: "none" }}
         />
         <div className="text-center">
           <p className="font-display text-white/90 text-lg font-medium">{photo.title}</p>
-          <p className="font-ui text-white/50 text-xs tracking-widest uppercase mt-1" style={{ letterSpacing: "0.15em" }}>
+          <p className="font-ui text-white/50 text-xs tracking-[0.15em] uppercase mt-1">
             {photo.category} · {photo.season} · {currentIndex + 1} / {photos.length}
           </p>
         </div>

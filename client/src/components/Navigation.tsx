@@ -32,7 +32,7 @@ export default function Navigation() {
             {links.map((link) => (
               <Link key={link.href} href={link.href}>
                 <span
-                  className={`font-ui text-xs font-500 tracking-widest uppercase transition-colors ${
+                  className={`font-ui text-xs font-medium tracking-widest uppercase transition-colors ${
                     location === link.href
                       ? "text-primary border-b border-primary pb-0.5"
                       : "text-muted-foreground hover:text-foreground"
