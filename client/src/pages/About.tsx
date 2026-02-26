@@ -21,6 +21,19 @@ import {
 import Navigation from "@/components/Navigation";
 import { photos } from "@/lib/photos";
 import { cn } from "@/lib/utils";
+import ReactMarkdown from "react-markdown";
+
+// Markdown content imports
+import bioMd from "@/content/about/bio.md?raw";
+import devMd from "@/content/about/dev.md?raw";
+import aiMd from "@/content/about/ai.md?raw";
+import hikeMd from "@/content/about/hike.md?raw";
+import mushMd from "@/content/about/mush.md?raw";
+import orchMd from "@/content/about/orch.md?raw";
+import travelMd from "@/content/about/travel.md?raw";
+import histMd from "@/content/about/hist.md?raw";
+import musicMd from "@/content/about/music.md?raw";
+import filmMd from "@/content/about/film.md?raw";
 
 /* ────────────────────────────────────────────
    Tipovi
@@ -46,373 +59,8 @@ type TileData = {
   imageUrl: string;
   icon: React.ReactNode;
   gridClass: string;
-  content: React.ReactNode;
+  content: string; // Markdown content string
 };
-
-/* ────────────────────────────────────────────
-   Sadržaj pločica
-   ──────────────────────────────────────────── */
-
-function BioContent() {
-  return (
-    <>
-      <h2>Put od koda do prirode</h2>
-      <p>
-        Moje putanje nisu bile ravne. Studirao sam mašinstvo sa stipendijom,
-        zatim informatiku. Rat, vojska, preispitivanja — to je bilo moje početne
-        godine. Ali iz toga je izašla jasna stvar: informatika je moja strast.
-        Postao sam uspešan programer, prvo u velikim firmama sa kompleksnim
-        sistemima, a zatim sam pokrenuo svoju firmu.
-      </p>
-      <p>
-        Dvadeset godina je prošlo u radu — noću, vikendom, bez granica. Prvo
-        izgorevanje je došlo kada sam shvatio da veliki informacioni sistemi,
-        iako izazovni, nose sa sobom ogroman stres i odgovornost. Dao sam otkaz,
-        tri meseca sam bio kod kuće, projektovao sam budući sistem, i otvorio sam
-        svoju firmu. Mislio sam da će biti drugačije.
-      </p>
-      <p>
-        Ali ponovo je došlo do istoga. Sa 150 aktivnih klijenata, radio sam sam.
-        Bukvalno nisam znao kako se zovem. Tada je, pre tri godine, došlo do
-        drugog izgorevanja — onog koji je bio presudno drugačiji. U tom trenutku
-        sam presekao i rekao sam sebi:{" "}
-        <em>"Ne dam više nikom svoje slobodno vreme."</em>
-      </p>
-      <hr />
-      <p>
-        Fotografija i šetnje po Fruškoj gori nisu bile nove — ljubav i želja za
-        njima postoje od malih nogu. Ali nikada nisam imao vreme. Obezbedio sam
-        vreme. To je bilo ključno.
-      </p>
-      <p>
-        Prestao sam da uzimam nove klijente. Sa nekima sam se pozdravio, sa
-        nekima sam dogovorio novi sistem saradnje. Sada mogu da živim — ne samo
-        da preživim. Često idem u šetnje i tokom radne nedelje, posle radnog
-        dana. Vodim sina Gavrila u prirodu. Fotografiram — minimalistički zimski
-        snimci, atmosferske magle, dokumentarne trenutke sa porodicom.
-      </p>
-      <p>
-        Fotografija je za mene postala jezik. Nije samo tehnička veština — to je
-        način da vidim svet. Pronalazim smisao u odnosu između malih, usamljenih
-        subjekata — usamljene ptice, jednog planinara, ribara u sumrak — i
-        ogromne, ravnodušne veličine prirodnog sveta. U toj kontrastu je nešto
-        duboko istinito.
-      </p>
-      <p>
-        Supruga me podržava u potpunosti. Delimo obaveze, delimo vreme. Ona je
-        svojevremeno dala otkaz da bismo kao porodica mogli da se postavimo na
-        noge. Sada se to vraća — ne novcem, već vremenom, mirom i zajedničkim
-        šetnjama.
-      </p>
-      <p>
-        Često čujem: "Ljudi koji idu vikendom u prirodu jesu bogati ljudi u tom
-        smislu." Ja sam se odlučio da budem bogat. Nije to bila laka odluka —
-        bila je potrebna odlučnost, preispitivanje, i volja da se vrati kontrola
-        nad sopstvenim životom. Ali to je bilo moguće jer sam imao osnovno —
-        ljubav i želju. Trebalo je samo da obezbedim vreme.
-      </p>
-      <p>
-        Ove fotografije nisu samo snimci. Svaka je deo tog putanja —
-        pronalaženja smisla, pronalaženja sebe, pronalaženja mira u prirodi.
-        Nadajem se da kroz njih vidite ono što ja vidim: da je moguće da se
-        vrati kontrola, da se obezbedi vreme za ono što je bitno, i da se živi —
-        pravo živi — bez odlaganja.
-      </p>
-    </>
-  );
-}
-
-function DevContent() {
-  return (
-    <>
-      <h2>Arhitektura digitalnih svetova</h2>
-      <p>
-        Počeo sam da kodiram pre nego što sam znao da to tako zovem. Mašinstvo
-        mi je dalo disciplinu, ali informatika mi je dala jezik. Dvadeset godina
-        sam gradio sisteme — kompleksne, žive organizme od podataka i logike.
-        MSSQL baze koje dišu pod opterećenjem od hiljada upita. Integracije koje
-        povezuju stvari koje nikad nisu bile zamišljene da rade zajedno.
-      </p>
-      <p>
-        Ono što sam naučio nije samo sintaksa — to je način razmišljanja.
-        Arhitektura je odluka o tome šta je bitno, a šta može da čeka.
-        Svaki dobar sistem koji sam napravio imao je istu osobinu: bio je
-        jednostavniji nego što je morao da bude.
-      </p>
-      <blockquote>
-        Najbolji kod koji sam napisao je onaj koji sam obrisao.
-      </blockquote>
-      <hr />
-      <h3>Beleške</h3>
-      <ul>
-        <li>Sistemi, integracije, automatizacije — dvadeset godina iskustva</li>
-        <li>MSSQL, Docker, RAG arhitekture</li>
-        <li>Od velikih firmi do sopstvene — i nazad ka ravnoteži</li>
-        <li>Komponente kao mini-aplikacije: svaka ima svoju priču</li>
-      </ul>
-    </>
-  );
-}
-
-function AIContent() {
-  return (
-    <>
-      <h2>Novi horizonti kognicije</h2>
-      <p>
-        Veštačka inteligencija nije za mene samo alat — to je sagovornik u
-        procesu razmišljanja. Koristim je svakodnevno, ne da zameni misao, nego
-        da je produbi. RAG sistemi, agenti, evaluacije — sve su to načini da
-        strukturiram ono što znam i otkrijem ono što ne znam.
-      </p>
-      <p>
-        Fascinira me tačka preseka: gde prestaje moje znanje a počinje mašinsko.
-        Tu negde, u tom prostoru između, nastaju najinteresantnije stvari.
-        Preciznost i poetičnost nisu suprotnosti — najbolji promptovi imaju obe
-        osobine.
-      </p>
-      <blockquote>
-        AI nije zamena za razmišljanje. To je ogledalo koje ti pokazuje kako
-        zapravo razmišljaš.
-      </blockquote>
-      <hr />
-      <h3>Pravci</h3>
-      <ul>
-        <li>RAG arhitekture za lične baze znanja</li>
-        <li>Agentski sistemi — komponente koje same odlučuju</li>
-        <li>Evaluacija kvaliteta: kako meriti ono što je subjektivno</li>
-        <li>Povezivanje AI sa svakodnevnim alatima i tokovima rada</li>
-      </ul>
-    </>
-  );
-}
-
-function HikeContent() {
-  return (
-    <>
-      <h2>Vertikalni mir</h2>
-      <p>
-        Fruška gora je moj stalni saputnik. Nije spektakularna na način na koji
-        su to Alpi ili Himalaji — ali ima nešto dublje. Blaga uzvišenja,
-        bukove šume koje menjaju boju svake nedelje, potoci koji nestaju u lišću.
-        Ovde se ne osvaja vrh. Ovde se sluša.
-      </p>
-      <p>
-        Planinarenje me je naučilo nečemu što programiranje nije moglo: da
-        vrednost nije u rezultatu, nego u procesu. Sat vremena hoda kroz maglu
-        vredi više od svake optimizacije. Vodim sina na te staze — ne da bi
-        stigao negde, nego da bi video kako izgledaju koraci bez cilja.
-      </p>
-      <blockquote>
-        Na Fruškoj gori nema vrha koji se osvaja. Ima samo staza koja te
-        vraća sebi.
-      </blockquote>
-      <hr />
-      <h3>Beleške sa staza</h3>
-      <ul>
-        <li>Fruška gora — nedeljne šetnje, svaka sezona drugi svet</li>
-        <li>Fotografija u pokretu: kad se zaustavi korak, pojavi se kadar</li>
-        <li>Šetnje sa Gavrilom — učiti ga da gleda, ne da juri</li>
-        <li>Tempo: 4–5 km/h, ali bitnije je koliko puta zastaneš</li>
-      </ul>
-    </>
-  );
-}
-
-function MushContent() {
-  return (
-    <>
-      <h2>Mikologija u fokusu</h2>
-      <p>
-        Gljive su me fascinirale oduvek — ali ne kao hrana, već kao fenomen.
-        Micelij ispod zemlje je mreža koja povezuje drveće, razmenjuje hranjive
-        materije, komunicira bez reči. Šuma koju vidimo je samo površina.
-        Ispod je čitav svet koji ne razumemo dovoljno.
-      </p>
-      <p>
-        U šetnjama po Fruškoj gori sam počeo da ih primećujem svuda. Na
-        trulim panjevima, u lišću, na mestima gde se niko ne saginje da
-        pogleda. Svaki nalaz je mala zagonetkа — boja šešira, miris, struktura
-        listića — i svaki put me podseti koliko malo znam.
-      </p>
-      <blockquote>
-        Gljive te uče poniznosti. Koliko god da misliš da znaš, šuma uvek ima
-        nešto što nisi video.
-      </blockquote>
-      <hr />
-      <h3>Beleške</h3>
-      <ul>
-        <li>Micelij kao "internet šume" — mreža ispod površine</li>
-        <li>Jesen na Fruškoj gori: sezona otkrića</li>
-        <li>Fotografisanje gljiva — makro svet u detalju</li>
-        <li>Od fascinacije do sistematskog učenja</li>
-      </ul>
-    </>
-  );
-}
-
-function OrchContent() {
-  return (
-    <>
-      <h2>Egzotična preciznost</h2>
-      <p>
-        Orhideje su paradoks: izgledaju krhko, a zapravo su neverovatno
-        otporne. Preživljavaju uslove u kojima bi većina biljaka odustala —
-        ali pod jednim uslovom: da ih razumeš. Svaka vrsta ima svoj ritam,
-        svoju potrebu za svetlom, vodom, temperaturom.
-      </p>
-      <p>
-        Moja mala kolekcija je počela slučajno, sa jednom Phalaenopsis koja je
-        odbijala da umre. Sada ih imam više — ne mnogo, ali dovoljno da svako
-        jutro bude malo drugačije. Promatranje cveta koji se otvara tokom
-        nedelju dana je lekcija o strpljenju koju nikakav kod ne može da nauči.
-      </p>
-      <blockquote>
-        Orhideje ne trpe žurbu. One cvetaju kad su spremne, ne kad ti to
-        želiš.
-      </blockquote>
-      <hr />
-      <h3>Kolekcija</h3>
-      <ul>
-        <li>Phalaenopsis — stabilna temperatura, indirektno svetlo</li>
-        <li>Cattleya — voli jače svetlo, suvlji ciklus</li>
-        <li>Dendrobium — prati sezonalnost, različite podvrste</li>
-        <li>Beleške o nezi: ritam zalivanja, supstrat, presađivanje</li>
-      </ul>
-    </>
-  );
-}
-
-function HistContent() {
-  return (
-    <>
-      <h2>Odjeci prošlosti</h2>
-      <p>
-        Istorija me privlači ne kao niz datuma i bitaka, nego kao priča o
-        odlukama. Zašto je neko u određenom trenutku izabrao baš to? Koji su
-        pritisci bili, koje informacije je imao, čega se plašio? Kada čitam
-        istoriju, čitam psihologiju — samo na većoj skali.
-      </p>
-      <p>
-        Posebno me fascinira prostor u kome živim — Vojvodina, Fruška gora,
-        slojevi kultura koji su se smenjivali na ovom tlu. Rimski put prolazi
-        pored manastira koji je gradio srednjovekovni vladar. Na istom brdu
-        gde ja šetam, neko je pre pet vekova donosio odluke od kojih zavise
-        naše granice danas.
-      </p>
-      <blockquote>
-        Istorija nije prošlost. To je kontekst u kome živimo, samo ga
-        uglavnom ne primećujemo.
-      </blockquote>
-      <hr />
-      <h3>Teme</h3>
-      <ul>
-        <li>Vojvodina kroz vekove — slojevi kultura na jednom mestu</li>
-        <li>Fruškogorski manastiri — duhovnost i strategija</li>
-        <li>20. vek: odluke koje su oblikovale svet u kome živim</li>
-        <li>Veza između geografije i sudbine</li>
-      </ul>
-    </>
-  );
-}
-
-function MusicContent() {
-  return (
-    <>
-      <h2>Zvučni pejzaži</h2>
-      <p>
-        Muzika je za mene pozadina svega. Kad kodiram — slušam. Kad šetam —
-        slušam. Kad fotografišem — ponekad slušam, ponekad je tišina
-        dovoljna. Interesuju me zvuci koji nisu očigledni: terenski snimci,
-        ambijentalna elektronika, teksture koje više liče na pejzaž nego na
-        pesmu.
-      </p>
-      <p>
-        Postoji veza između atmosferske fotografije i ambijentalne muzike koja
-        me stalno vraća istoj tački: oboje se bave onim što je između.
-        Između nota, između kadrova — u tom prostoru se dešava ono što je
-        zapravo bitno.
-      </p>
-      <blockquote>
-        Najlepša muzika liči na maglu — ne vidiš je jasno, ali osećaš da je
-        svuda oko tebe.
-      </blockquote>
-      <hr />
-      <h3>Inspiracije</h3>
-      <ul>
-        <li>Ambijentalna elektronika — teksture iznad melodije</li>
-        <li>Terenski snimci: vetar, kiša, koraci po lišću</li>
-        <li>Filmska muzika kao narativ bez reči</li>
-        <li>Veza zvuka i slike u fotografskom procesu</li>
-      </ul>
-    </>
-  );
-}
-
-function FilmContent() {
-  return (
-    <>
-      <h2>Pokretne slike</h2>
-      <p>
-        Film me je naučio da gledam pre nego što sam počeo da fotografišem.
-        Kompozicija, svetlo, ritam montaže — sve to sam upijao godinama bez
-        svesti da će jednoga dana postati deo mog vizuelnog jezika. Kad kadriam
-        fotografiju, u glavi mi je filmski kadar.
-      </p>
-      <p>
-        Ne privlače me spektakli. Privlače me filmovi u kojima se ništa ne
-        dešava — a zapravo se dešava sve. Duga scena bez dijaloga. Čovek koji
-        gleda kroz prozor. Svetlo koje se menja dok kamera stoji. U tom
-        strpljenju je istina koju nikakva akcija ne može da pruži.
-      </p>
-      <blockquote>
-        Najbolji filmovi te ne zabavljaju. Oni te menjaju — tiho, bez da
-        primetiš.
-      </blockquote>
-      <hr />
-      <h3>Teme</h3>
-      <ul>
-        <li>Kompozicija i kadriranje — lekcije za fotografiju</li>
-        <li>Atmosfera iznad radnje: filmovi koji dišu</li>
-        <li>Svetlo i kontrast kao narativni alati</li>
-        <li>Ritam montaže — kad pauzirati, kad seći</li>
-      </ul>
-    </>
-  );
-}
-
-function TravelContent() {
-  return (
-    <>
-      <h2>Nomadski dijalog</h2>
-      <p>
-        Putovanja za mene nisu puko sakupljanje destinacija ili pečata u pasošu.
-        To su trenuci izmeštenosti — kada poznati pejzaži nestanu, a čula se
-        izostre. U dalekim predelima, bilo da su to maglovite obale severa ili
-        prašnjavi putevi juga, tražim istu stvar: atmosferu koja prevazilazi
-        lokaciju.
-      </p>
-      <p>
-        Fotografija na putovanju je proces prepoznavanja. Tražim univerzalnu
-        usamljenost subjekta u ogromnom prostoru. Ribar na Islandu ili
-        pastir na Durmitoru pričaju istu priču o odnosu čoveka i prirode.
-        To su susreti koji me menjaju, podsećajući me na moju malu, ali dragocenu
-        poziciju u svetu.
-      </p>
-      <blockquote>
-        Ne putuje se da bi se videlo nešto novo, već da bi se svet video na
-        nov način.
-      </blockquote>
-      <hr />
-      <h3>Zabeleške sa putovanja</h3>
-      <ul>
-        <li>Nordijski minimalizam: potraga za tišinom u magli</li>
-        <li>Mediteranski kontrasti: oštro svetlo i duboke senke</li>
-        <li>Balkanske planine: sirova snaga i nepredvidivost prirode</li>
-        <li>Oprema: minimalna, da ne bi stala između oka i sveta</li>
-      </ul>
-    </>
-  );
-}
 
 /* ────────────────────────────────────────────
    Definicija pločica
@@ -427,7 +75,7 @@ const TILES: TileData[] = [
     imageUrl: "https://res.cloudinary.com/dwfcr7rxo/image/upload/f_auto,q_auto,w_1200/portfolio/about/bio",
     icon: <BookOpen className="h-4 w-4" />,
     gridClass: "col-span-2 md:col-span-3",
-    content: <BioContent />,
+    content: bioMd,
   },
   {
     key: "dev",
@@ -437,7 +85,7 @@ const TILES: TileData[] = [
     imageUrl: "https://res.cloudinary.com/dwfcr7rxo/image/upload/f_auto,q_auto,w_1200/portfolio/about/dev",
     icon: <Code2 className="h-4 w-4" />,
     gridClass: "col-span-2 md:col-span-3",
-    content: <DevContent />,
+    content: devMd,
   },
   {
     key: "ai",
@@ -447,7 +95,7 @@ const TILES: TileData[] = [
     imageUrl: "https://res.cloudinary.com/dwfcr7rxo/image/upload/f_auto,q_auto,w_1200/portfolio/about/ai",
     icon: <Brain className="h-4 w-4" />,
     gridClass: "col-span-2 md:col-span-2 md:row-span-2",
-    content: <AIContent />,
+    content: aiMd,
   },
   {
     key: "hike",
@@ -457,7 +105,7 @@ const TILES: TileData[] = [
     imageUrl: "https://res.cloudinary.com/dwfcr7rxo/image/upload/f_auto,q_auto,w_1200/portfolio/about/hike",
     icon: <Mountain className="h-4 w-4" />,
     gridClass: "col-span-2 md:col-span-2",
-    content: <HikeContent />,
+    content: hikeMd,
   },
   {
     key: "mush",
@@ -467,7 +115,7 @@ const TILES: TileData[] = [
     imageUrl: "https://res.cloudinary.com/dwfcr7rxo/image/upload/f_auto,q_auto,w_1200/portfolio/about/mushroom",
     icon: <Leaf className="h-4 w-4" />,
     gridClass: "col-span-2 md:col-span-2",
-    content: <MushContent />,
+    content: mushMd,
   },
   {
     key: "orch",
@@ -477,7 +125,7 @@ const TILES: TileData[] = [
     imageUrl: "https://res.cloudinary.com/dwfcr7rxo/image/upload/f_auto,q_auto,w_1200/portfolio/about/orchid",
     icon: <Flower2 className="h-4 w-4" />,
     gridClass: "col-span-2 md:col-span-2",
-    content: <OrchContent />,
+    content: orchMd,
   },
   {
     key: "travel",
@@ -487,7 +135,7 @@ const TILES: TileData[] = [
     imageUrl: "https://res.cloudinary.com/dwfcr7rxo/image/upload/f_auto,q_auto,w_1200/portfolio/about/travel",
     icon: <Compass className="h-4 w-4" />,
     gridClass: "col-span-2 md:col-span-2",
-    content: <TravelContent />,
+    content: travelMd,
   },
   {
     key: "hist",
@@ -497,7 +145,7 @@ const TILES: TileData[] = [
     imageUrl: "https://res.cloudinary.com/dwfcr7rxo/image/upload/f_auto,q_auto,w_1200/portfolio/about/history",
     icon: <Clock className="h-4 w-4" />,
     gridClass: "col-span-2 md:col-span-6",
-    content: <HistContent />,
+    content: histMd,
   },
   {
     key: "music",
@@ -507,7 +155,7 @@ const TILES: TileData[] = [
     imageUrl: "https://res.cloudinary.com/dwfcr7rxo/image/upload/f_auto,q_auto,w_1200/portfolio/about/music",
     icon: <Music2 className="h-4 w-4" />,
     gridClass: "col-span-2 md:col-span-3",
-    content: <MusicContent />,
+    content: musicMd,
   },
   {
     key: "film",
@@ -517,7 +165,7 @@ const TILES: TileData[] = [
     imageUrl: "https://res.cloudinary.com/dwfcr7rxo/image/upload/f_auto,q_auto,w_1200/portfolio/about/film",
     icon: <Film className="h-4 w-4" />,
     gridClass: "col-span-2 md:col-span-3",
-    content: <FilmContent />,
+    content: filmMd,
   },
 ];
 
@@ -677,7 +325,9 @@ function TileOverlay({
           </div>
 
           {/* Content */}
-          <div className="story-content">{tile.content}</div>
+          <div className="story-content">
+            <ReactMarkdown>{tile.content}</ReactMarkdown>
+          </div>
         </div>
       </div>
     </div>
