@@ -18,7 +18,7 @@ export const photos: Photo[] = [
   // ─── ORIGINAL 25 PHOTOS ───────────────────────────────────────────────────
   {
     id: "IMG_7274",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/HDtgZzlpKeEnnixw.jpg",
+    src: "https://res.cloudinary.com/dwfcr7rxo/image/upload/f_auto,q_auto/portfolio/IMG_7274",
     title: "Samoća na mirnoj vodi",
     category: "Divlja priroda",
     season: "Zima",
@@ -42,7 +42,7 @@ Ovo je jedna od mojih najdražih slika jer govori o **strpljenju** — i u fotog
   },
   {
     id: "IMG_9755",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/VCnGIYkysqDItZzP.jpg",
+    src: "https://res.cloudinary.com/dwfcr7rxo/image/upload/f_auto,q_auto/portfolio/IMG_9755",
     title: "Beskrajni horizont",
     category: "Pejzaž",
     season: "Leto",
@@ -68,7 +68,7 @@ Ova slika me podseća koliko smo *mali* u poređenju sa prirodom. Ali paradoksal
   },
   {
     id: "IMG_3240",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/QQVxcHcaHkvwMgzX.jpg",
+    src: "https://res.cloudinary.com/dwfcr7rxo/image/upload/f_auto,q_auto/portfolio/IMG_3240",
     title: "Zlatna reka",
     category: "Pejzaž",
     season: "Leto",
@@ -94,7 +94,7 @@ Ovo je snimljeno sa **teleobiektivom od 200mm**, što je kompresovalo slojeve �
   },
   {
     id: "IMG_9496",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/EOBzrDyWgvGVVlSe.jpg",
+    src: "https://res.cloudinary.com/dwfcr7rxo/image/upload/f_auto,q_auto/portfolio/IMG_9496",
     title: "Mraz u sumrak",
     category: "Pejzaž",
     season: "Jesen",
@@ -105,7 +105,7 @@ Ovo je snimljeno sa **teleobiektivom od 200mm**, što je kompresovalo slojeve �
   },
   {
     id: "IMG_2084",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/nZlZeAsmfYtyHeUA.jpg",
+    src: "https://res.cloudinary.com/dwfcr7rxo/image/upload/f_auto,q_auto/portfolio/IMG_2084",
     title: "U magli",
     category: "Dokumentarno",
     season: "Leto",
@@ -116,7 +116,7 @@ Ovo je snimljeno sa **teleobiektivom od 200mm**, što je kompresovalo slojeve �
   },
   {
     id: "IMG_3176",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/FvNzOxSctVrFGChf.jpg",
+    src: "https://res.cloudinary.com/dwfcr7rxo/image/upload/f_auto,q_auto/portfolio/IMG_3176",
     title: "Čaplja u letu",
     category: "Divlja priroda",
     season: "Leto",
@@ -127,7 +127,7 @@ Ovo je snimljeno sa **teleobiektivom od 200mm**, što je kompresovalo slojeve �
   },
   {
     id: "IMG_5504",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/SJFJreCoxkjEXwHk.jpg",
+    src: "https://res.cloudinary.com/dwfcr7rxo/image/upload/f_auto,q_auto/portfolio/IMG_5504",
     title: "Svetiljke u snegu",
     category: "Zima",
     season: "Zima",
@@ -137,7 +137,7 @@ Ovo je snimljeno sa **teleobiektivom od 200mm**, što je kompresovalo slojeve �
   },
   {
     id: "IMG_6088",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/ZWhRjLCLNSBKZlyT.jpg",
+    src: "https://res.cloudinary.com/dwfcr7rxo/image/upload/f_auto,q_auto/portfolio/IMG_6088",
     title: "Planinska zima",
     category: "Pejzaž",
     season: "Zima",
@@ -147,7 +147,7 @@ Ovo je snimljeno sa **teleobiektivom od 200mm**, što je kompresovalo slojeve �
   },
   {
     id: "IMG_1797",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/WGoXASgTGtzKcmca.jpg",
+    src: "https://res.cloudinary.com/dwfcr7rxo/image/upload/f_auto,q_auto/portfolio/IMG_1797",
     title: "Oluja nad njivama",
     category: "Pejzaž",
     season: "Leto",
@@ -157,7 +157,7 @@ Ovo je snimljeno sa **teleobiektivom od 200mm**, što je kompresovalo slojeve �
   },
   {
     id: "IMG_4379",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/LpwXrGXCNzuiGZDh.jpg",
+    src: "https://res.cloudinary.com/dwfcr7rxo/image/upload/f_auto,q_auto/portfolio/IMG_4379",
     title: "Jutarnja izmaglica",
     category: "Pejzaž",
     season: "Jesen",
@@ -167,7 +167,7 @@ Ovo je snimljeno sa **teleobiektivom od 200mm**, što je kompresovalo slojeve �
   },
   {
     id: "IMG_4297",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/CHxgZDOikfntmEiu.jpg",
+    src: "https://res.cloudinary.com/dwfcr7rxo/image/upload/f_auto,q_auto/portfolio/IMG_4297",
     title: "Labudovi kod tornja",
     category: "Divlja priroda",
     season: "Jesen",
@@ -177,7 +177,7 @@ Ovo je snimljeno sa **teleobiektivom od 200mm**, što je kompresovalo slojeve �
   },
   {
     id: "IMG_5918",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/IOrsqdiFRQBIDckM.jpg",
+    src: "https://res.cloudinary.com/dwfcr7rxo/image/upload/f_auto,q_auto/portfolio/IMG_5918",
     title: "Ribarev put",
     category: "Dokumentarno",
     season: "Zima",
@@ -187,7 +187,7 @@ Ovo je snimljeno sa **teleobiektivom od 200mm**, što je kompresovalo slojeve �
   },
   {
     id: "IMG_3633",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/atMqrMIeyDpCxUJY.jpg",
+    src: "https://res.cloudinary.com/dwfcr7rxo/image/upload/f_auto,q_auto/portfolio/IMG_3633",
     title: "Vinograd u magli",
     category: "Pejzaž",
     season: "Jesen",
@@ -197,7 +197,7 @@ Ovo je snimljeno sa **teleobiektivom od 200mm**, što je kompresovalo slojeve �
   },
   {
     id: "IMG_5979",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/YMfmxwWAoErnoZQc.jpg",
+    src: "https://res.cloudinary.com/dwfcr7rxo/image/upload/f_auto,q_auto/portfolio/IMG_5979",
     title: "Vrana u zimi",
     category: "Divlja priroda",
     season: "Zima",
@@ -207,7 +207,7 @@ Ovo je snimljeno sa **teleobiektivom od 200mm**, što je kompresovalo slojeve �
   },
   {
     id: "IMG_5876",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/FfVqXHmoLQwaXmUR.jpg",
+    src: "https://res.cloudinary.com/dwfcr7rxo/image/upload/f_auto,q_auto/portfolio/IMG_5876",
     title: "Plava šuma",
     category: "Zima",
     season: "Zima",
@@ -217,7 +217,7 @@ Ovo je snimljeno sa **teleobiektivom od 200mm**, što je kompresovalo slojeve �
   },
   {
     id: "IMG_4047",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/tZipeOxSOOFsgXbT.jpg",
+    src: "https://res.cloudinary.com/dwfcr7rxo/image/upload/f_auto,q_auto/portfolio/IMG_4047",
     title: "Mala voda",
     category: "Dokumentarno",
     season: "Jesen",
@@ -227,7 +227,7 @@ Ovo je snimljeno sa **teleobiektivom od 200mm**, što je kompresovalo slojeve �
   },
   {
     id: "IMG_3573",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/tisuVxvNDCzSygEH.jpg",
+    src: "https://res.cloudinary.com/dwfcr7rxo/image/upload/f_auto,q_auto/portfolio/IMG_3573",
     title: "Čelični most u sumrak",
     category: "Arhitektura",
     season: "Leto",
@@ -237,7 +237,7 @@ Ovo je snimljeno sa **teleobiektivom od 200mm**, što je kompresovalo slojeve �
   },
   {
     id: "IMG_5559",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/LlIdCbiYovVQHnhM.jpg",
+    src: "https://res.cloudinary.com/dwfcr7rxo/image/upload/f_auto,q_auto/portfolio/IMG_5559",
     title: "Zaleđeni potok",
     category: "Zima",
     season: "Zima",
@@ -247,7 +247,7 @@ Ovo je snimljeno sa **teleobiektivom od 200mm**, što je kompresovalo slojeve �
   },
   {
     id: "IMG_0554",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/dkLjuAbrAmSgGqLi.jpg",
+    src: "https://res.cloudinary.com/dwfcr7rxo/image/upload/f_auto,q_auto/portfolio/IMG_0554",
     title: "Ispucala zemlja",
     category: "Dokumentarno",
     season: "Leto",
@@ -257,7 +257,7 @@ Ovo je snimljeno sa **teleobiektivom od 200mm**, što je kompresovalo slojeve �
   },
   {
     id: "IMG_3127",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/SiTvQboHDFIsWuyc.jpg",
+    src: "https://res.cloudinary.com/dwfcr7rxo/image/upload/f_auto,q_auto/portfolio/IMG_3127",
     title: "Ljuljanje nad rekom",
     category: "Dokumentarno",
     season: "Leto",
@@ -267,7 +267,7 @@ Ovo je snimljeno sa **teleobiektivom od 200mm**, što je kompresovalo slojeve �
   },
   {
     id: "IMG_3071",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/ARGJUjbdEZkWRcth.jpg",
+    src: "https://res.cloudinary.com/dwfcr7rxo/image/upload/f_auto,q_auto/portfolio/IMG_3071",
     title: "Slojevi uz reku",
     category: "Arhitektura",
     season: "Leto",
@@ -277,7 +277,7 @@ Ovo je snimljeno sa **teleobiektivom od 200mm**, što je kompresovalo slojeve �
   },
   {
     id: "IMG_4032",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/TyvNBAKdpmvGyfRO.jpg",
+    src: "https://res.cloudinary.com/dwfcr7rxo/image/upload/f_auto,q_auto/portfolio/IMG_4032",
     title: "Prazna klupa",
     category: "Dokumentarno",
     season: "Jesen",
@@ -287,7 +287,7 @@ Ovo je snimljeno sa **teleobiektivom od 200mm**, što je kompresovalo slojeve �
   },
   {
     id: "IMG_2954",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/SXEHacnSFkgqKJxj.jpg",
+    src: "https://res.cloudinary.com/dwfcr7rxo/image/upload/f_auto,q_auto/portfolio/IMG_2954",
     title: "Čaplja na ruševinama",
     category: "Divlja priroda",
     season: "Leto",
@@ -297,7 +297,7 @@ Ovo je snimljeno sa **teleobiektivom od 200mm**, što je kompresovalo slojeve �
   },
   {
     id: "IMG_4825",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/yPZiVjBRqnJkYzGK.jpg",
+    src: "https://res.cloudinary.com/dwfcr7rxo/image/upload/f_auto,q_auto/portfolio/IMG_4825",
     title: "Pas na stazi",
     category: "Dokumentarno",
     season: "Jesen",
@@ -308,7 +308,7 @@ Ovo je snimljeno sa **teleobiektivom od 200mm**, što je kompresovalo slojeve �
   // ─── NEW 65 PHOTOS ────────────────────────────────────────────────────────
   {
     id: "IMG_4328",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/rolthEeVfOjGOmaS.jpg",
+    src: "https://res.cloudinary.com/dwfcr7rxo/image/upload/f_auto,q_auto/portfolio/IMG_4328",
     title: "Poletanje labuda",
     category: "Divlja priroda",
     season: "Jesen",
@@ -319,7 +319,7 @@ Ovo je snimljeno sa **teleobiektivom od 200mm**, što je kompresovalo slojeve �
   },
   {
     id: "IMG_4468",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/tlfoYMkmOHnHpkUX.jpg",
+    src: "https://res.cloudinary.com/dwfcr7rxo/image/upload/f_auto,q_auto/portfolio/IMG_4468",
     title: "Labud u jutarnjoj magli",
     category: "Divlja priroda",
     season: "Jesen",
@@ -330,7 +330,7 @@ Ovo je snimljeno sa **teleobiektivom od 200mm**, što je kompresovalo slojeve �
   },
   {
     id: "IMG_3385",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/CPjCDeSfwIVIVHnM.jpg",
+    src: "https://res.cloudinary.com/dwfcr7rxo/image/upload/f_auto,q_auto/portfolio/IMG_3385",
     title: "Polja u izmaglici",
     category: "Pejzaž",
     season: "Leto",
@@ -340,7 +340,7 @@ Ovo je snimljeno sa **teleobiektivom od 200mm**, što je kompresovalo slojeve �
   },
   {
     id: "IMG_4420",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/MawjpmaEYLAambzO.jpg",
+    src: "https://res.cloudinary.com/dwfcr7rxo/image/upload/f_auto,q_auto/portfolio/IMG_4420",
     title: "Ribar u zlatnom jutru",
     category: "Dokumentarno",
     season: "Proleće",
@@ -351,7 +351,7 @@ Ovo je snimljeno sa **teleobiektivom od 200mm**, što je kompresovalo slojeve �
   },
   {
     id: "IMG_4476",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/wiwhSOLURCJaaKik.jpg",
+    src: "https://res.cloudinary.com/dwfcr7rxo/image/upload/f_auto,q_auto/portfolio/IMG_4476",
     title: "Drveće u magli",
     category: "Pejzaž",
     season: "Jesen",
@@ -361,7 +361,7 @@ Ovo je snimljeno sa **teleobiektivom od 200mm**, što je kompresovalo slojeve �
   },
   {
     id: "IMG_8511",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/riSyreNjMoMHUkrT.jpg",
+    src: "https://res.cloudinary.com/dwfcr7rxo/image/upload/f_auto,q_auto/portfolio/IMG_8511",
     title: "Labudovi na snegu",
     category: "Divlja priroda",
     season: "Zima",
@@ -371,7 +371,7 @@ Ovo je snimljeno sa **teleobiektivom od 200mm**, što je kompresovalo slojeve �
   },
   {
     id: "IMG_4469",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/JEMtcQpLphNXdmFU.jpg",
+    src: "https://res.cloudinary.com/dwfcr7rxo/image/upload/f_auto,q_auto/portfolio/IMG_4469",
     title: "Plovci u magli",
     category: "Dokumentarno",
     season: "Jesen",
@@ -382,7 +382,7 @@ Ovo je snimljeno sa **teleobiektivom od 200mm**, što je kompresovalo slojeve �
   },
   {
     id: "IMG_5057",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/cZSdvEKnezuuUtTN.jpg",
+    src: "https://res.cloudinary.com/dwfcr7rxo/image/upload/f_auto,q_auto/portfolio/IMG_5057",
     title: "Pogled na grad",
     category: "Dokumentarno",
     season: "Leto",
@@ -392,7 +392,7 @@ Ovo je snimljeno sa **teleobiektivom od 200mm**, što je kompresovalo slojeve �
   },
   {
     id: "IMG_9934",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/hNKSyIAbRClnPOUa.jpg",
+    src: "https://res.cloudinary.com/dwfcr7rxo/image/upload/f_auto,q_auto/portfolio/IMG_9934",
     title: "Kuća pred oluju",
     category: "Arhitektura",
     season: "Leto",
@@ -402,7 +402,7 @@ Ovo je snimljeno sa **teleobiektivom od 200mm**, što je kompresovalo slojeve �
   },
   {
     id: "IMG_0849",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/mHnljIgsvEDDDcTD.jpg",
+    src: "https://res.cloudinary.com/dwfcr7rxo/image/upload/f_auto,q_auto/portfolio/IMG_0849",
     title: "Samoća u sumrak",
     category: "Dokumentarno",
     season: "Leto",
@@ -426,7 +426,7 @@ Ponekad jedna slika kaže sve o **samoći** — ne onoj tužnoj, već onoj izabr
   },
   {
     id: "IMG_6285",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/YiuonxUxWjOGAhmv.jpg",
+    src: "https://res.cloudinary.com/dwfcr7rxo/image/upload/f_auto,q_auto/portfolio/IMG_6285",
     title: "Dim nad ravnicom",
     category: "Pejzaž",
     season: "Proleće",
@@ -436,7 +436,7 @@ Ponekad jedna slika kaže sve o **samoći** — ne onoj tužnoj, već onoj izabr
   },
   {
     id: "IMG_5505",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/MzYrcjkNFtbRHNrh.jpg",
+    src: "https://res.cloudinary.com/dwfcr7rxo/image/upload/f_auto,q_auto/portfolio/IMG_5505",
     title: "Letnji dan na reci",
     category: "Dokumentarno",
     season: "Leto",
@@ -446,7 +446,7 @@ Ponekad jedna slika kaže sve o **samoći** — ne onoj tužnoj, već onoj izabr
   },
   {
     id: "IMG_8498",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/qvSibUGWBifCoHnY.jpg",
+    src: "https://res.cloudinary.com/dwfcr7rxo/image/upload/f_auto,q_auto/portfolio/IMG_8498",
     title: "Roda na ledu",
     category: "Divlja priroda",
     season: "Zima",
@@ -456,7 +456,7 @@ Ponekad jedna slika kaže sve o **samoći** — ne onoj tužnoj, već onoj izabr
   },
   {
     id: "IMG_0776",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/izlCIlEgGKXoYqdJ.jpg",
+    src: "https://res.cloudinary.com/dwfcr7rxo/image/upload/f_auto,q_auto/portfolio/IMG_0776",
     title: "Planinski horizont",
     category: "Pejzaž",
     season: "Leto",
@@ -466,7 +466,7 @@ Ponekad jedna slika kaže sve o **samoći** — ne onoj tužnoj, već onoj izabr
   },
   {
     id: "IMG_5395",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/UwGRqpqLbqiUFcIJ.jpg",
+    src: "https://res.cloudinary.com/dwfcr7rxo/image/upload/f_auto,q_auto/portfolio/IMG_5395",
     title: "Put kroz ravnicu",
     category: "Pejzaž",
     season: "Leto",
@@ -476,7 +476,7 @@ Ponekad jedna slika kaže sve o **samoći** — ne onoj tužnoj, već onoj izabr
   },
   {
     id: "IMG_4053",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/OWMuVCxHRiRSQJhJ.jpg",
+    src: "https://res.cloudinary.com/dwfcr7rxo/image/upload/f_auto,q_auto/portfolio/IMG_4053",
     title: "Podolci na paši",
     category: "Dokumentarno",
     season: "Leto",
@@ -486,7 +486,7 @@ Ponekad jedna slika kaže sve o **samoći** — ne onoj tužnoj, već onoj izabr
   },
   {
     id: "IMG_2569",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/qjUyxZUiuyXCYvuk.jpg",
+    src: "https://res.cloudinary.com/dwfcr7rxo/image/upload/f_auto,q_auto/portfolio/IMG_2569",
     title: "Garan pred oluju",
     category: "Arhitektura",
     season: "Leto",
@@ -512,7 +512,7 @@ Garan je nekada služio za navodnjavanje — drvena poluga sa kantom na jednom k
   },
   {
     id: "IMG_8606",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/zmJDlLeZGyQtjhMS.jpg",
+    src: "https://res.cloudinary.com/dwfcr7rxo/image/upload/f_auto,q_auto/portfolio/IMG_8606",
     title: "Dva drveta",
     category: "Pejzaž",
     season: "Proleće",
@@ -523,7 +523,7 @@ Garan je nekada služio za navodnjavanje — drvena poluga sa kantom na jednom k
   },
   {
     id: "IMG_5044",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/ktTBQqyfhpOHTQgb.jpg",
+    src: "https://res.cloudinary.com/dwfcr7rxo/image/upload/f_auto,q_auto/portfolio/IMG_5044",
     title: "Stara kapija",
     category: "Arhitektura",
     season: "Jesen",
@@ -533,7 +533,7 @@ Garan je nekada služio za navodnjavanje — drvena poluga sa kantom na jednom k
   },
   {
     id: "IMG_0841",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/oeIZXLGNGRzIhtWe.jpg",
+    src: "https://res.cloudinary.com/dwfcr7rxo/image/upload/f_auto,q_auto/portfolio/IMG_0841",
     title: "Dvoje u sumrak",
     category: "Dokumentarno",
     season: "Leto",
@@ -544,7 +544,7 @@ Garan je nekada služio za navodnjavanje — drvena poluga sa kantom na jednom k
   },
   {
     id: "IMG_8135",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/vwfPQRvthgbrEBKb.jpg",
+    src: "https://res.cloudinary.com/dwfcr7rxo/image/upload/f_auto,q_auto/portfolio/IMG_8135",
     title: "Zimski mir",
     category: "Pejzaž",
     season: "Zima",
@@ -554,7 +554,7 @@ Garan je nekada služio za navodnjavanje — drvena poluga sa kantom na jednom k
   },
   {
     id: "IMG_5354",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/ISoRzNrBYrabWGsF.jpg",
+    src: "https://res.cloudinary.com/dwfcr7rxo/image/upload/f_auto,q_auto/portfolio/IMG_5354",
     title: "Stara tvrđava",
     category: "Arhitektura",
     season: "Jesen",
@@ -564,7 +564,7 @@ Garan je nekada služio za navodnjavanje — drvena poluga sa kantom na jednom k
   },
   {
     id: "IMG_6694",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/ihUSaVHXwduyBNSL.jpg",
+    src: "https://res.cloudinary.com/dwfcr7rxo/image/upload/f_auto,q_auto/portfolio/IMG_6694",
     title: "Sasak u cvatu",
     category: "Divlja priroda",
     season: "Proleće",
@@ -574,7 +574,7 @@ Garan je nekada služio za navodnjavanje — drvena poluga sa kantom na jednom k
   },
   {
     id: "IMG_0278",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/eyoVjrqcEcdKlbPH.jpg",
+    src: "https://res.cloudinary.com/dwfcr7rxo/image/upload/f_auto,q_auto/portfolio/IMG_0278",
     title: "Vinogradi i ravnica",
     category: "Pejzaž",
     season: "Leto",
@@ -584,7 +584,7 @@ Garan je nekada služio za navodnjavanje — drvena poluga sa kantom na jednom k
   },
   {
     id: "IMG_9511",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/BYVeZSoJkdGGJvZV.jpg",
+    src: "https://res.cloudinary.com/dwfcr7rxo/image/upload/f_auto,q_auto/portfolio/IMG_9511",
     title: "Polje repice",
     category: "Pejzaž",
     season: "Proleće",
@@ -594,7 +594,7 @@ Garan je nekada služio za navodnjavanje — drvena poluga sa kantom na jednom k
   },
   {
     id: "IMG_4547",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/ZQFMaZeftnGDDgTB.jpg",
+    src: "https://res.cloudinary.com/dwfcr7rxo/image/upload/f_auto,q_auto/portfolio/IMG_4547",
     title: "Fruška Gora pred oluju",
     category: "Pejzaž",
     season: "Proleće",
@@ -604,7 +604,7 @@ Garan je nekada služio za navodnjavanje — drvena poluga sa kantom na jednom k
   },
   {
     id: "IMG_3186",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/isvAXkMRfZCOcqfX.jpg",
+    src: "https://res.cloudinary.com/dwfcr7rxo/image/upload/f_auto,q_auto/portfolio/IMG_3186",
     title: "Zimska bara",
     category: "Pejzaž",
     season: "Zima",
@@ -615,7 +615,7 @@ Garan je nekada služio za navodnjavanje — drvena poluga sa kantom na jednom k
   },
   {
     id: "IMG_2736",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/cDRQscHDFyHapfFM.jpg",
+    src: "https://res.cloudinary.com/dwfcr7rxo/image/upload/f_auto,q_auto/portfolio/IMG_2736",
     title: "Sremski pejzaž",
     category: "Dokumentarno",
     season: "Leto",
@@ -625,7 +625,7 @@ Garan je nekada služio za navodnjavanje — drvena poluga sa kantom na jednom k
   },
   {
     id: "IMG_0479",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/CGMVoOJYQUAprbJH.jpg",
+    src: "https://res.cloudinary.com/dwfcr7rxo/image/upload/f_auto,q_auto/portfolio/IMG_0479",
     title: "Jezero u kamenolomu",
     category: "Pejzaž",
     season: "Leto",
@@ -635,7 +635,7 @@ Garan je nekada služio za navodnjavanje — drvena poluga sa kantom na jednom k
   },
   {
     id: "IMG_2475",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/fzviaCyKLiAcLUXr.jpg",
+    src: "https://res.cloudinary.com/dwfcr7rxo/image/upload/f_auto,q_auto/portfolio/IMG_2475",
     title: "Meteora",
     category: "Arhitektura",
     season: "Leto",
@@ -645,7 +645,7 @@ Garan je nekada služio za navodnjavanje — drvena poluga sa kantom na jednom k
   },
   {
     id: "IMG_7386",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/uvpnpCTkttykdUyf.jpg",
+    src: "https://res.cloudinary.com/dwfcr7rxo/image/upload/f_auto,q_auto/portfolio/IMG_7386",
     title: "Poplavna ravnica",
     category: "Pejzaž",
     season: "Leto",
@@ -655,7 +655,7 @@ Garan je nekada služio za navodnjavanje — drvena poluga sa kantom na jednom k
   },
   {
     id: "IMG_4129",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/ijRESkVAINZYGvwe.jpg",
+    src: "https://res.cloudinary.com/dwfcr7rxo/image/upload/f_auto,q_auto/portfolio/IMG_4129",
     title: "Paviljon na Paliću",
     category: "Arhitektura",
     season: "Jesen",
@@ -665,7 +665,7 @@ Garan je nekada služio za navodnjavanje — drvena poluga sa kantom na jednom k
   },
   {
     id: "IMG_0823",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/mZbEAcIoQzlqCZYp.jpg",
+    src: "https://res.cloudinary.com/dwfcr7rxo/image/upload/f_auto,q_auto/portfolio/IMG_0823",
     title: "Zlatno jutro na reci",
     category: "Pejzaž",
     season: "Leto",
@@ -676,7 +676,7 @@ Garan je nekada služio za navodnjavanje — drvena poluga sa kantom na jednom k
   },
   {
     id: "IMG_5514",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/CAejADayogrZIVgH.jpg",
+    src: "https://res.cloudinary.com/dwfcr7rxo/image/upload/f_auto,q_auto/portfolio/IMG_5514",
     title: "Most pred oluju",
     category: "Arhitektura",
     season: "Leto",
@@ -686,7 +686,7 @@ Garan je nekada služio za navodnjavanje — drvena poluga sa kantom na jednom k
   },
   {
     id: "IMG_3994",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/RhQzwXYqkiuzWvSL.jpg",
+    src: "https://res.cloudinary.com/dwfcr7rxo/image/upload/f_auto,q_auto/portfolio/IMG_3994",
     title: "Put ka zalasku",
     category: "Pejzaž",
     season: "Jesen",
@@ -697,7 +697,7 @@ Garan je nekada služio za navodnjavanje — drvena poluga sa kantom na jednom k
   },
   {
     id: "IMG_6819",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/yPKdBfelCDlQJaNa.jpg",
+    src: "https://res.cloudinary.com/dwfcr7rxo/image/upload/f_auto,q_auto/portfolio/IMG_6819",
     title: "Ravnica pred oluju",
     category: "Pejzaž",
     season: "Proleće",
@@ -707,7 +707,7 @@ Garan je nekada služio za navodnjavanje — drvena poluga sa kantom na jednom k
   },
   {
     id: "IMG_2503",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/QrZiJTdPgBRzzYTU.jpg",
+    src: "https://res.cloudinary.com/dwfcr7rxo/image/upload/f_auto,q_auto/portfolio/IMG_2503",
     title: "Na vrhu sveta",
     category: "Dokumentarno",
     season: "Leto",
@@ -717,7 +717,7 @@ Garan je nekada služio za navodnjavanje — drvena poluga sa kantom na jednom k
   },
   {
     id: "IMG_0551",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/MNMmPjTLqsalhmTb.jpg",
+    src: "https://res.cloudinary.com/dwfcr7rxo/image/upload/f_auto,q_auto/portfolio/IMG_0551",
     title: "Isušeno jezero",
     category: "Dokumentarno",
     season: "Leto",
@@ -727,7 +727,7 @@ Garan je nekada služio za navodnjavanje — drvena poluga sa kantom na jednom k
   },
   {
     id: "IMG_0140",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/hnLBuIhqTDRFOOSU.jpg",
+    src: "https://res.cloudinary.com/dwfcr7rxo/image/upload/f_auto,q_auto/portfolio/IMG_0140",
     title: "Zalazak na reci",
     category: "Pejzaž",
     season: "Leto",
@@ -737,7 +737,7 @@ Garan je nekada služio za navodnjavanje — drvena poluga sa kantom na jednom k
   },
   {
     id: "IMG_3867",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/virlonVCpuQYXSRw.jpg",
+    src: "https://res.cloudinary.com/dwfcr7rxo/image/upload/f_auto,q_auto/portfolio/IMG_3867",
     title: "Sunce kroz šumu",
     category: "Pejzaž",
     season: "Jesen",
@@ -748,7 +748,7 @@ Garan je nekada služio za navodnjavanje — drvena poluga sa kantom na jednom k
   },
   {
     id: "IMG_5642",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/eneoFEiiRhCYgUpG.jpg",
+    src: "https://res.cloudinary.com/dwfcr7rxo/image/upload/f_auto,q_auto/portfolio/IMG_5642",
     title: "Jesenja Fruška Gora",
     category: "Pejzaž",
     season: "Jesen",
@@ -758,7 +758,7 @@ Garan je nekada služio za navodnjavanje — drvena poluga sa kantom na jednom k
   },
   {
     id: "IMG_8603",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/OXqxCrhazwiSLMjS.jpg",
+    src: "https://res.cloudinary.com/dwfcr7rxo/image/upload/f_auto,q_auto/portfolio/IMG_8603",
     title: "Dva drveta na njivi",
     category: "Pejzaž",
     season: "Proleće",
@@ -769,7 +769,7 @@ Garan je nekada služio za navodnjavanje — drvena poluga sa kantom na jednom k
   },
   {
     id: "IMG_3196",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/UbbyUEmhKonNhWmM.jpg",
+    src: "https://res.cloudinary.com/dwfcr7rxo/image/upload/f_auto,q_auto/portfolio/IMG_3196",
     title: "Vijugavi put",
     category: "Pejzaž",
     season: "Proleće",
@@ -779,7 +779,7 @@ Garan je nekada služio za navodnjavanje — drvena poluga sa kantom na jednom k
   },
   {
     id: "IMG_5374",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/bGVInojYozwVoJmp.jpg",
+    src: "https://res.cloudinary.com/dwfcr7rxo/image/upload/f_auto,q_auto/portfolio/IMG_5374",
     title: "Proleće na njivama",
     category: "Pejzaž",
     season: "Proleće",
@@ -789,7 +789,7 @@ Garan je nekada služio za navodnjavanje — drvena poluga sa kantom na jednom k
   },
   {
     id: "IMG_5579",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/QrLgrQGFritMskNf.jpg",
+    src: "https://res.cloudinary.com/dwfcr7rxo/image/upload/f_auto,q_auto/portfolio/IMG_5579",
     title: "Zmaj nad Sremom",
     category: "Dokumentarno",
     season: "Proleće",
@@ -800,7 +800,7 @@ Garan je nekada služio za navodnjavanje — drvena poluga sa kantom na jednom k
   },
   {
     id: "IMG_5954",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/hIOMrqLYRkNKcYqG.jpg",
+    src: "https://res.cloudinary.com/dwfcr7rxo/image/upload/f_auto,q_auto/portfolio/IMG_5954",
     title: "Reka pred oluju",
     category: "Pejzaž",
     season: "Leto",
@@ -810,7 +810,7 @@ Garan je nekada služio za navodnjavanje — drvena poluga sa kantom na jednom k
   },
   {
     id: "IMG_4965",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/oUBsqNYwyHQgObpq.jpg",
+    src: "https://res.cloudinary.com/dwfcr7rxo/image/upload/f_auto,q_auto/portfolio/IMG_4965",
     title: "Šumska magla",
     category: "Pejzaž",
     season: "Leto",
@@ -820,7 +820,7 @@ Garan je nekada služio za navodnjavanje — drvena poluga sa kantom na jednom k
   },
   {
     id: "IMG_2810",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/PQONMohlSNixmCGa.jpg",
+    src: "https://res.cloudinary.com/dwfcr7rxo/image/upload/f_auto,q_auto/portfolio/IMG_2810",
     title: "Zimska šuma",
     category: "Pejzaž",
     season: "Zima",
@@ -830,7 +830,7 @@ Garan je nekada služio za navodnjavanje — drvena poluga sa kantom na jednom k
   },
   {
     id: "IMG_8223",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/gBiekjQxweHktGzq.jpg",
+    src: "https://res.cloudinary.com/dwfcr7rxo/image/upload/f_auto,q_auto/portfolio/IMG_8223",
     title: "Jesenja padina",
     category: "Pejzaž",
     season: "Jesen",
@@ -840,7 +840,7 @@ Garan je nekada služio za navodnjavanje — drvena poluga sa kantom na jednom k
   },
   {
     id: "IMG_6350",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/DOynBnJWwONKgXfM.jpg",
+    src: "https://res.cloudinary.com/dwfcr7rxo/image/upload/f_auto,q_auto/portfolio/IMG_6350",
     title: "Odmor pod bukvom",
     category: "Dokumentarno",
     season: "Jesen",
@@ -850,7 +850,7 @@ Garan je nekada služio za navodnjavanje — drvena poluga sa kantom na jednom k
   },
   {
     id: "IMG_2482",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/IEhHzzdHgwgGtXke.jpg",
+    src: "https://res.cloudinary.com/dwfcr7rxo/image/upload/f_auto,q_auto/portfolio/IMG_2482",
     title: "Meteora — manastir na steni",
     category: "Arhitektura",
     season: "Leto",
@@ -861,7 +861,7 @@ Garan je nekada služio za navodnjavanje — drvena poluga sa kantom na jednom k
   },
   {
     id: "IMG_9287",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/imtmUwDoedQPiryn.jpg",
+    src: "https://res.cloudinary.com/dwfcr7rxo/image/upload/f_auto,q_auto/portfolio/IMG_9287",
     title: "Ruina crkve",
     category: "Arhitektura",
     season: "Zima",
@@ -872,7 +872,7 @@ Garan je nekada služio za navodnjavanje — drvena poluga sa kantom na jednom k
   },
   {
     id: "IMG_8576",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/bqaMidTwZylibhsE.jpg",
+    src: "https://res.cloudinary.com/dwfcr7rxo/image/upload/f_auto,q_auto/portfolio/IMG_8576",
     title: "Šuma u jesen",
     category: "Pejzaž",
     season: "Jesen",
@@ -882,7 +882,7 @@ Garan je nekada služio za navodnjavanje — drvena poluga sa kantom na jednom k
   },
   {
     id: "IMG_3029",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/xYHvrnnEddFBzLjW.jpg",
+    src: "https://res.cloudinary.com/dwfcr7rxo/image/upload/f_auto,q_auto/portfolio/IMG_3029",
     title: "Sunce u šumi",
     category: "Pejzaž",
     season: "Jesen",
@@ -893,7 +893,7 @@ Garan je nekada služio za navodnjavanje — drvena poluga sa kantom na jednom k
   },
   {
     id: "IMG_4875",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/vqgfdZRSDywbiafs.jpg",
+    src: "https://res.cloudinary.com/dwfcr7rxo/image/upload/f_auto,q_auto/portfolio/IMG_4875",
     title: "Dečak i pas na Fruškoj Gori",
     category: "Dokumentarno",
     season: "Jesen",
@@ -903,7 +903,7 @@ Garan je nekada služio za navodnjavanje — drvena poluga sa kantom na jednom k
   },
   {
     id: "IMG_5198",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/vkzbutxTsFZvyVZR.jpg",
+    src: "https://res.cloudinary.com/dwfcr7rxo/image/upload/f_auto,q_auto/portfolio/IMG_5198",
     title: "Jesenja paleta",
     category: "Pejzaž",
     season: "Jesen",
@@ -914,7 +914,7 @@ Garan je nekada služio za navodnjavanje — drvena poluga sa kantom na jednom k
   },
   {
     id: "IMG_2404",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/mdpaIuZCAmTaMhke.jpg",
+    src: "https://res.cloudinary.com/dwfcr7rxo/image/upload/f_auto,q_auto/portfolio/IMG_2404",
     title: "Napušteni dvorac",
     category: "Arhitektura",
     season: "Leto",
@@ -924,7 +924,7 @@ Garan je nekada služio za navodnjavanje — drvena poluga sa kantom na jednom k
   },
   {
     id: "IMG_8912",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/eIcCvYtmuOamyAlP.jpg",
+    src: "https://res.cloudinary.com/dwfcr7rxo/image/upload/f_auto,q_auto/portfolio/IMG_8912",
     title: "Žitno polje",
     category: "Pejzaž",
     season: "Leto",
@@ -935,7 +935,7 @@ Garan je nekada služio za navodnjavanje — drvena poluga sa kantom na jednom k
   },
   {
     id: "IMG_8173",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/heLXenYjjpArlRB.jpg",
+    src: "https://res.cloudinary.com/dwfcr7rxo/image/upload/f_auto,q_auto/portfolio/IMG_8173",
     title: "Zlatni zraci",
     category: "Pejzaž",
     season: "Jesen",
@@ -946,7 +946,7 @@ Garan je nekada služio za navodnjavanje — drvena poluga sa kantom na jednom k
   },
   {
     id: "IMG_9000",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/HSacVpZljjPftHcn.jpg",
+    src: "https://res.cloudinary.com/dwfcr7rxo/image/upload/f_auto,q_auto/portfolio/IMG_9000",
     title: "Suncokretovo polje",
     category: "Pejzaž",
     season: "Leto",
@@ -957,7 +957,7 @@ Garan je nekada služio za navodnjavanje — drvena poluga sa kantom na jednom k
   },
   {
     id: "IMG_4405",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/WanBJGKIfonaHtiY.jpg",
+    src: "https://res.cloudinary.com/dwfcr7rxo/image/upload/f_auto,q_auto/portfolio/IMG_4405",
     title: "Zlatni sat na reci",
     category: "Dokumentarno",
     season: "Leto",
@@ -968,7 +968,7 @@ Garan je nekada služio za navodnjavanje — drvena poluga sa kantom na jednom k
   },
   {
     id: "IMG_1155",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/QpXyhAVSoVKRHXpI.jpg",
+    src: "https://res.cloudinary.com/dwfcr7rxo/image/upload/f_auto,q_auto/portfolio/IMG_1155",
     title: "Divlji konji",
     category: "Divlja priroda",
     season: "Leto",
@@ -979,7 +979,7 @@ Garan je nekada služio za navodnjavanje — drvena poluga sa kantom na jednom k
   },
   {
     id: "IMG_1967",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/QoDbEEAQRsZqThGC.jpg",
+    src: "https://res.cloudinary.com/dwfcr7rxo/image/upload/f_auto,q_auto/portfolio/IMG_1967",
     title: "Stara bukva",
     category: "Pejzaž",
     season: "Leto",
@@ -989,7 +989,7 @@ Garan je nekada služio za navodnjavanje — drvena poluga sa kantom na jednom k
   },
   {
     id: "IMG_3067",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/YSKGYdNfpajQUjEp.jpg",
+    src: "https://res.cloudinary.com/dwfcr7rxo/image/upload/f_auto,q_auto/portfolio/IMG_3067",
     title: "Kamenolom",
     category: "Dokumentarno",
     season: "Leto",
@@ -999,7 +999,7 @@ Garan je nekada služio za navodnjavanje — drvena poluga sa kantom na jednom k
   },
   {
     id: "IMG_7084",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/DfijirOvEAihNJwS.jpg",
+    src: "https://res.cloudinary.com/dwfcr7rxo/image/upload/f_auto,q_auto/portfolio/IMG_7084",
     title: "Livada u cvetu",
     category: "Pejzaž",
     season: "Proleće",
@@ -1009,7 +1009,7 @@ Garan je nekada služio za navodnjavanje — drvena poluga sa kantom na jednom k
   },
   {
     id: "IMG_4526",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/kCHKCyhjqmkxIKtu.jpg",
+    src: "https://res.cloudinary.com/dwfcr7rxo/image/upload/f_auto,q_auto/portfolio/IMG_4526",
     title: "Staro imanje",
     category: "Dokumentarno",
     season: "Jesen",
@@ -1019,7 +1019,7 @@ Garan je nekada služio za navodnjavanje — drvena poluga sa kantom na jednom k
   },
   {
     id: "IMG_4292",
-    src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663357937522/FfkdUcTorkVFHlaN.jpg",
+    src: "https://res.cloudinary.com/dwfcr7rxo/image/upload/f_auto,q_auto/portfolio/IMG_4292",
     title: "Labudovi na kanalu",
     category: "Divlja priroda",
     season: "Jesen",
