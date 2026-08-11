@@ -2,7 +2,7 @@
 // O meni — Bento Hub: interesovanja organizovana kao vizuelne pločice
 
 import { useState, useEffect, useCallback, useRef } from "react";
-import { Link } from "wouter";
+import { Link, useLocation } from "wouter";
 import {
   ArrowLeft,
   BookOpen,
@@ -63,6 +63,26 @@ type TileData = {
 };
 
 /* ────────────────────────────────────────────
+   Deterministički direction za hover sliku
+   — hash funkcija nad TileKey-vima (zamenjuje Math.random radi
+   stabilnijeg rendering-a i predvidivijeg hash per pločicu)
+   ──────────────────────────────────────────── */
+const HOVER_DIRECTIONS = [
+  "translate-x-full",
+  "-translate-x-full",
+  "translate-y-full",
+  "-translate-y-full",
+] as const;
+
+function directionForKey(key: TileKey): string {
+  let h = 0;
+  for (let i = 0; i < key.length; i++) {
+    h = (h * 31 + key.charCodeAt(i)) | 0;
+  }
+  return HOVER_DIRECTIONS[Math.abs(h) % HOVER_DIRECTIONS.length];
+}
+
+/* ────────────────────────────────────────────
    Definicija pločica
    ──────────────────────────────────────────── */
 
@@ -72,7 +92,8 @@ const TILES: TileData[] = [
     title: "Biografija",
     subtitle: "Put od koda do prirode",
     description: "Lični put od tehnologije do mira u prirodi.",
-    imageUrl: "https://res.cloudinary.com/dwfcr7rxo/image/upload/f_auto,q_auto,w_1200/portfolio/about/bio",
+    imageUrl:
+      "https://res.cloudinary.com/dwfcr7rxo/image/upload/f_auto,q_auto,w_1200/portfolio/about/bio",
     icon: <BookOpen className="h-4 w-4" />,
     gridClass: "col-span-2 md:col-span-3",
     content: bioMd,
@@ -82,7 +103,8 @@ const TILES: TileData[] = [
     title: "Programiranje",
     subtitle: "Arhitektura digitalnih svetova",
     description: "Arhitektura kompleksnih sistema i čist kod.",
-    imageUrl: "https://res.cloudinary.com/dwfcr7rxo/image/upload/f_auto,q_auto,w_1200/portfolio/about/dev",
+    imageUrl:
+      "https://res.cloudinary.com/dwfcr7rxo/image/upload/f_auto,q_auto,w_1200/portfolio/about/dev",
     icon: <Code2 className="h-4 w-4" />,
     gridClass: "col-span-2 md:col-span-3",
     content: devMd,
@@ -92,7 +114,8 @@ const TILES: TileData[] = [
     title: "Veštačka inteligencija",
     subtitle: "Novi horizonti kognicije",
     description: "Sagovornik u procesu razmišljanja i kognicije.",
-    imageUrl: "https://res.cloudinary.com/dwfcr7rxo/image/upload/f_auto,q_auto,w_1200/portfolio/about/ai",
+    imageUrl:
+      "https://res.cloudinary.com/dwfcr7rxo/image/upload/f_auto,q_auto,w_1200/portfolio/about/ai",
     icon: <Brain className="h-4 w-4" />,
     gridClass: "col-span-2 md:col-span-2 md:row-span-2",
     content: aiMd,
@@ -102,7 +125,8 @@ const TILES: TileData[] = [
     title: "Planinarenje",
     subtitle: "Vertikalni mir",
     description: "Vertikalni mir na stazama Fruške gore.",
-    imageUrl: "https://res.cloudinary.com/dwfcr7rxo/image/upload/f_auto,q_auto,w_1200/portfolio/about/hike",
+    imageUrl:
+      "https://res.cloudinary.com/dwfcr7rxo/image/upload/f_auto,q_auto,w_1200/portfolio/about/hike",
     icon: <Mountain className="h-4 w-4" />,
     gridClass: "col-span-2 md:col-span-2",
     content: hikeMd,
@@ -112,7 +136,8 @@ const TILES: TileData[] = [
     title: "Gljive",
     subtitle: "Mikologija u fokusu",
     description: "Istraživanje skrivenih mreža šumskog ekosistema.",
-    imageUrl: "https://res.cloudinary.com/dwfcr7rxo/image/upload/f_auto,q_auto,w_1200/portfolio/about/mushroom",
+    imageUrl:
+      "https://res.cloudinary.com/dwfcr7rxo/image/upload/f_auto,q_auto,w_1200/portfolio/about/mushroom",
     icon: <Leaf className="h-4 w-4" />,
     gridClass: "col-span-2 md:col-span-2",
     content: mushMd,
@@ -122,7 +147,8 @@ const TILES: TileData[] = [
     title: "Orhideje",
     subtitle: "Egzotična preciznost",
     description: "Lekcije o strpljenju kroz krhku lepotu cveta.",
-    imageUrl: "https://res.cloudinary.com/dwfcr7rxo/image/upload/f_auto,q_auto,w_1200/portfolio/about/orchid",
+    imageUrl:
+      "https://res.cloudinary.com/dwfcr7rxo/image/upload/f_auto,q_auto,w_1200/portfolio/about/orchid",
     icon: <Flower2 className="h-4 w-4" />,
     gridClass: "col-span-2 md:col-span-2",
     content: orchMd,
@@ -132,7 +158,8 @@ const TILES: TileData[] = [
     title: "Putovanja",
     subtitle: "Nomadski dijalog",
     description: "Nomadski duh i potraga za atmosferom u dalekim predelima.",
-    imageUrl: "https://res.cloudinary.com/dwfcr7rxo/image/upload/f_auto,q_auto,w_1200/portfolio/about/travel",
+    imageUrl:
+      "https://res.cloudinary.com/dwfcr7rxo/image/upload/f_auto,q_auto,w_1200/portfolio/about/travel",
     icon: <Compass className="h-4 w-4" />,
     gridClass: "col-span-2 md:col-span-2",
     content: travelMd,
@@ -142,7 +169,8 @@ const TILES: TileData[] = [
     title: "Istorija",
     subtitle: "Odjeci prošlosti",
     description: "Razumevanje sadašnjosti kroz slojeve prošlih odluka.",
-    imageUrl: "https://res.cloudinary.com/dwfcr7rxo/image/upload/f_auto,q_auto,w_1200/portfolio/about/history",
+    imageUrl:
+      "https://res.cloudinary.com/dwfcr7rxo/image/upload/f_auto,q_auto,w_1200/portfolio/about/history",
     icon: <Clock className="h-4 w-4" />,
     gridClass: "col-span-2 md:col-span-6",
     content: histMd,
@@ -152,7 +180,8 @@ const TILES: TileData[] = [
     title: "Muzika",
     subtitle: "Zvučni pejzaži",
     description: "Ambijentalni pejzaži kao zvučna podloga života.",
-    imageUrl: "https://res.cloudinary.com/dwfcr7rxo/image/upload/f_auto,q_auto,w_1200/portfolio/about/music",
+    imageUrl:
+      "https://res.cloudinary.com/dwfcr7rxo/image/upload/f_auto,q_auto,w_1200/portfolio/about/music",
     icon: <Music2 className="h-4 w-4" />,
     gridClass: "col-span-2 md:col-span-3",
     content: musicMd,
@@ -162,7 +191,8 @@ const TILES: TileData[] = [
     title: "Film",
     subtitle: "Pokretne slike",
     description: "Vizuelni jezik strpljenja i tišine na ekranu.",
-    imageUrl: "https://res.cloudinary.com/dwfcr7rxo/image/upload/f_auto,q_auto,w_1200/portfolio/about/film",
+    imageUrl:
+      "https://res.cloudinary.com/dwfcr7rxo/image/upload/f_auto,q_auto,w_1200/portfolio/about/film",
     icon: <Film className="h-4 w-4" />,
     gridClass: "col-span-2 md:col-span-3",
     content: filmMd,
@@ -173,27 +203,22 @@ const TILES: TileData[] = [
    Bento pločica
    ──────────────────────────────────────────── */
 
-function TileCard({
-  tile,
-  onOpen,
-}: {
-  tile: TileData;
-  onOpen: () => void;
-}) {
-  const directions = [
-    "translate-x-full",
-    "-translate-x-full",
-    "translate-y-full",
-    "-translate-y-full",
-  ];
-  const [direction] = useState(
-    () => directions[Math.floor(Math.random() * directions.length)],
-  );
+function TileCard({ tile, onOpen }: { tile: TileData; onOpen: () => void }) {
+  const direction = directionForKey(tile.key);
+  const [imgLoaded, setImgLoaded] = useState(false);
+
+  // Lazy-load hover slike tek na prvi hover/focus (sprečava učitavanje 10 velikih
+  // Cloudinary slika pri mount-u, posebno na mobilnom gde hover ionako ne postoji).
+  // Jednom učitana slika ostaje montirana — čuvamo "ever hovered" flag.
+  const [everHovered, setEverHovered] = useState(false);
+  const shouldLoadImg = everHovered;
 
   return (
     <button
       type="button"
       onClick={onOpen}
+      onMouseEnter={() => setEverHovered(true)}
+      onFocus={() => setEverHovered(true)}
       className={cn(
         "group relative flex h-full w-full flex-col p-6 text-left",
         "border border-border bg-secondary/30",
@@ -201,23 +226,28 @@ function TileCard({
         "hover:border-primary/30 hover:bg-secondary/40",
         "focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring",
         "min-h-[160px]",
-        tile.gridClass,
+        tile.gridClass
       )}
     >
       {/* Background Image Effect (Clipped) */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
-        <div
-          className={cn(
-            "absolute inset-0 z-0 opacity-0 transition-all duration-700 ease-in-out group-hover:opacity-40 group-hover:translate-x-0 group-hover:translate-y-0",
-            direction,
-          )}
-        >
-          <img
-            src={tile.imageUrl}
-            alt=""
-            className="h-full w-full object-cover grayscale brightness-75"
-          />
-        </div>
+        {shouldLoadImg && (
+          <div
+            className={cn(
+              "absolute inset-0 z-0 opacity-0 transition-all duration-700 ease-in-out group-hover:opacity-40 group-hover:translate-x-0 group-hover:translate-y-0",
+              direction,
+              imgLoaded && "opacity-40"
+            )}
+          >
+            <img
+              src={tile.imageUrl}
+              alt=""
+              loading="lazy"
+              onLoad={() => setImgLoaded(true)}
+              className="h-full w-full object-cover grayscale brightness-75"
+            />
+          </div>
+        )}
       </div>
 
       {/* Content wrapper */}
@@ -262,12 +292,44 @@ function TileOverlay({
 }) {
   const overlayRef = useRef<HTMLDivElement>(null);
   const closeRef = useRef<HTMLButtonElement>(null);
+  const contentRef = useRef<HTMLDivElement>(null);
+  const headingId = `tile-overlay-title-${tile.key}`;
+
+  const handleClose = useCallback(() => onClose(), [onClose]);
 
   const handleKeyDown = useCallback(
     (e: KeyboardEvent) => {
-      if (e.key === "Escape") onClose();
+      if (e.key === "Escape") {
+        handleClose();
+        return;
+      }
+      // Focus trap: Tab / Shift+Tab ostaje unutar overlay-a
+      if (e.key !== "Tab" || !contentRef.current || !closeRef.current) return;
+      const focusables = Array.from(
+        contentRef.current.querySelectorAll<HTMLElement>(
+          'a[href], button:not([disabled]), textarea, input, select, [tabindex]:not([tabindex="-1"])'
+        )
+      ).filter(el => el.offsetParent !== null);
+      // Dugme za zatvaranje je uvek prvo/poslednje fokusibilno (fiksno pozicionirano)
+      const items = [closeRef.current, ...focusables].filter(
+        (el, i, arr) => arr.indexOf(el) === i
+      );
+      if (items.length === 0) return;
+      const first = items[0];
+      const last = items[items.length - 1];
+      const active = document.activeElement as HTMLElement | null;
+      if (e.shiftKey && active === first) {
+        e.preventDefault();
+        last.focus();
+      } else if (!e.shiftKey && active === last) {
+        e.preventDefault();
+        first.focus();
+      } else if (!active || !contentRef.current.contains(active)) {
+        e.preventDefault();
+        first.focus();
+      }
     },
-    [onClose],
+    [handleClose]
   );
 
   useEffect(() => {
@@ -285,15 +347,18 @@ function TileOverlay({
     <div
       ref={overlayRef}
       className="story-overlay"
+      onClick={e => {
+        if (e.target === overlayRef.current) handleClose();
+      }}
       role="dialog"
       aria-modal="true"
-      aria-label={tile.title}
+      aria-labelledby={headingId}
     >
       {/* Close */}
       <button
         ref={closeRef}
         className="story-close-btn"
-        onClick={onClose}
+        onClick={handleClose}
         aria-label="Zatvori"
       >
         <X size={18} />
@@ -311,6 +376,7 @@ function TileOverlay({
               {tile.subtitle}
             </p>
             <h2
+              id={headingId}
               className="font-display text-3xl font-semibold mt-3"
               style={{ color: "rgba(255,255,255,0.92)" }}
             >
@@ -325,7 +391,7 @@ function TileOverlay({
           </div>
 
           {/* Content */}
-          <div className="story-content">
+          <div ref={contentRef} className="story-content">
             <ReactMarkdown>{tile.content}</ReactMarkdown>
           </div>
         </div>
@@ -338,10 +404,48 @@ function TileOverlay({
    Glavna stranica
    ──────────────────────────────────────────── */
 
-export default function About() {
-  const [openKey, setOpenKey] = useState<TileKey | null>(null);
+const VALID_KEYS: TileKey[] = TILES.map(t => t.key);
 
-  const openTile = TILES.find((t) => t.key === openKey) ?? null;
+function tileFromHash(hash: string): TileKey | null {
+  if (!hash.startsWith("#")) return null;
+  const key = hash.slice(1) as TileKey;
+  return VALID_KEYS.includes(key) ? key : null;
+}
+
+export default function About() {
+  const [location, navigate] = useLocation();
+  const [openKey, setOpenKey] = useState<TileKey | null>(() =>
+    tileFromHash(window.location.hash)
+  );
+
+  // Sync tile state sa URL hash-om — podržava permalink deljenje i back/forward
+  useEffect(() => {
+    const onHashChange = () => {
+      setOpenKey(tileFromHash(window.location.hash));
+    };
+    window.addEventListener("hashchange", onHashChange);
+    return () => window.removeEventListener("hashchange", onHashChange);
+  }, []);
+
+  const handleOpen = useCallback(
+    (key: TileKey) => {
+      setOpenKey(key);
+      // Ažuriraj URL bez skoka na vrh stranice
+      if (window.location.hash !== `#${key}`) {
+        navigate(`${location.split("#")[0]}#${key}`, { replace: true });
+      }
+    },
+    [location, navigate]
+  );
+
+  const handleClose = useCallback(() => {
+    setOpenKey(null);
+    if (window.location.hash) {
+      navigate(location.split("#")[0], { replace: true });
+    }
+  }, [location, navigate]);
+
+  const openTile = TILES.find(t => t.key === openKey) ?? null;
 
   return (
     <div className="min-h-screen bg-background text-foreground">
@@ -367,11 +471,11 @@ export default function About() {
       <section className="pb-20">
         <div className="container max-w-5xl">
           <div className="grid grid-cols-2 gap-3 md:grid-cols-6 md:gap-4">
-            {TILES.map((tile) => (
+            {TILES.map(tile => (
               <TileCard
                 key={tile.key}
                 tile={tile}
-                onOpen={() => setOpenKey(tile.key)}
+                onOpen={() => handleOpen(tile.key)}
               />
             ))}
           </div>
@@ -379,9 +483,7 @@ export default function About() {
       </section>
 
       {/* Overlay */}
-      {openTile && (
-        <TileOverlay tile={openTile} onClose={() => setOpenKey(null)} />
-      )}
+      {openTile && <TileOverlay tile={openTile} onClose={handleClose} />}
 
       {/* Donja navigacija */}
       <section className="pb-20 border-t border-border pt-12">
